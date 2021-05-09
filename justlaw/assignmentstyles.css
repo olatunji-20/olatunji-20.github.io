@@ -1,0 +1,560 @@
+
+
+
+
+body {
+    margin: 0px;
+    text-align: center;
+    
+}
+.logoo {
+    width: 40px;
+    height: 40px;
+    float: left;
+    position: relative;
+    top: 8px;
+}
+a {
+    text-decoration: none;
+}
+li:hover{
+    color: red;
+    cursor: pointer;
+}
+
+hr {
+    border: 3px solid red;      /* I DON'T KNOW HOW TO MAKE IT MOVE*/
+    width: 13%;
+}
+h2 {
+    padding-left: 30px;
+}
+.pfirst {
+    padding-left: 30px;
+    font-family: arial;
+    line-height: 25px;
+    color: #808080;
+}
+
+.navbar {
+    width: 1349px;
+    height: 60px;
+    background-color: #1a1a1a;
+    font-family: 'Times New Roman', Times, serif;
+    position: fixed;
+    padding: 0px auto;
+    z-index: 5;
+    margin: 0px auto;
+}
+
+
+li {
+    color: white;
+    display: inline-block;
+    text-indent: 40px;
+    font-size: 16px;
+    
+    line-height: 0px;
+    position: relative;
+    bottom: 8px;
+    transform: scale(1);
+}
+li:hover {
+    color: red;
+    cursor: pointer;
+}
+.got {
+    color: white;
+    display: inline-block;
+    line-height: 0px;
+    padding-right: 10px;
+}
+ul {
+    background-color: brown;
+    display: inline-block;
+    font-family: arial;
+}
+.consulttt {
+    background-color: white;
+    color: red;
+    position: relative;
+    height: 20px;
+    bottom: 7px;
+    padding: 20px 50px 0px 0px;
+    margin: 0px 70px;
+    border-radius: 5px;
+}
+.consulttt:hover {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content1 {
+    background-color: white;
+    position: absolute;
+    display: none;
+    padding-top: 20px;
+    border-top: 4px solid red;
+    width: 150px;
+    height: 85px;
+}
+.dropdown-content2 {
+    background-color: white;
+    position: absolute;
+    display: none;
+    padding-top: 20px;
+    border-top: 4px solid red;
+    width: 150px;
+    height: 55px;
+}
+.dropdown:hover .dropdown-content1 {
+    display: block;
+    position: absolute;
+    top: 30px;
+}
+.dropdown:hover .dropdown-content2 {
+    display: block;
+    position: absolute;
+    top: 30px;
+}
+
+
+.she {
+    display: block;
+    color: black;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: left;
+    text-indent: 0px;
+}
+
+
+.shedrop {
+    position: relative;
+    display: inline-block;
+}
+.shedrop-content {
+    background-color: red;
+    width: 100px;
+    height: 300px;
+    display: none;
+}
+.shedrop:hover .shedrop-content {
+    display: block;
+    position: absolute;
+    top: 30px;
+}
+
+.navdiv3sub {
+    background-color: brown;
+    width: 400px;
+    height: 300px;
+}
+
+
+
+/* FIRST CONTAINER*/
+
+.seconddiv {
+    text-align: left;
+    background-color: #cccccc;
+    margin-left: 300px;
+    width: 350px;
+    padding-top: 80px;
+    padding-left: 6px;
+    padding-bottom: 40px;
+    left: 300px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    display: block;
+}
+
+/*SECOND CONTAINER */
+
+.thirddiv {
+    background-color: floralwhite;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 27px;
+    max-width: 1349px;
+    height: 140px;
+    top: 60px;
+    display: block;
+    padding-top: 100px;
+    padding-bottom: 140px;
+}
+
+/* THIRD COMTAINER*/
+
+.fourthdiv {
+    background-color: powderblue;
+    width: 380px;
+    height: 700px;
+    display: inline-block;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    
+}
+            .bashcar {
+                float: top;
+                width: 380px;
+                height: 280px;
+            }
+            .bashcar:hover {
+                transform: scale(1.005);
+                
+            }
+            .doclap {
+                float: top;
+                width: 380px;
+                height: 280px;
+            }
+            .lovedoc {
+                float: top;
+                width: 380px;
+                height: 280px;
+            }
+
+/* FOURTH CONTAINER*/
+.seventhdiv {
+    background-color: red;
+    text-align: left;
+    width: 1349px;
+    height: 900px;
+    
+}
+.about {
+    background-color: #f2f2f2;
+    display: inline-block;
+    padding-top: 100px;
+    width: 570px;
+    height: 700px;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+.cases {
+    background-color: white;
+    width: 150px;
+    height: 100px;
+    line-height: 10px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 80px;
+}
+.caseses {
+    background-color: white;
+    width: 150px;
+    height: 100px;
+    line-height: 10px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 40px;
+}
+.hcases {
+    color: red;
+}
+.pcases {
+    font-family: arial;
+    color: #808080;
+}
+.h1first {
+    font-size: 55px;
+    padding-left: 80px;
+   
+}
+.psecond {
+    font-family: arial;
+    padding-top: 60px;
+    padding-left: 80px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    line-height: 25px;
+    color: #808080;
+}
+
+.smileman {
+    width: 350px;
+    height: 400px;
+    z-index: 1;
+    position: relative;
+    right: 250px;
+    top: 10px;
+}
+.justice {
+    width: 350px;
+    height: 400px;
+    z-index: 1;
+    position: relative;
+    bottom: 40px;
+    left: 326px;
+    
+}
+
+/* FIFTH CONTAINER*/
+
+.eightdiv {
+    background-color:  #bfbfbf;
+    width: 1349px;
+    height: 700px;
+    display: block;
+}
+.subeightdiv {
+    background-color: blue;
+    width: 700px;
+    height: 650px;
+    position: relative;
+    bottom: 100px;
+    margin-left: 324.50px;
+    padding-top: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 27px;
+    z-index: 1;
+    
+}
+.consult {
+    background-color: red;
+    width: 250px;
+    height: 60px;
+    border-radius: 7px;
+    display: inline-block;
+    margin: 10px;
+    
+}
+.freeco {
+    background-color: red;
+    width: 520px;
+    height: 130px;
+    margin: 30px 20px 30px 90px;
+    border-radius: 7px;
+}
+/* SIXTH CONTAINER*/
+
+.ninthdiv {
+    background-color: white;
+    width: 1349px;
+    height: 300px;
+    display: block;
+    padding-top: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 27px;
+}
+.recent {
+    font-family: arial;
+    display: inline-block;
+    padding-top: 50px;
+    font-size: 17px;
+    text-indent: 25px;
+    color: #666666;
+}
+.recente {
+    color: #666666;
+}
+
+.tenthdiv {
+    background-color: #404040;
+    width: 1349px;
+    height: 800px;
+    display: block;
+    padding-top: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 27px;
+}
+    .sub1tenthdiv {
+        background-color: transparent;
+        width: 300px;
+        height: 550px;
+        display: inline-block;
+        font-family: arial;
+        font-size: 20px;
+        line-height: 35px;
+        padding: 30px 20px;
+}
+p {
+    color: white;
+    
+}
+.olatunj {
+    width: 130px;
+    height: 130px;
+    border-radius: 70px;
+}
+
+.eleventhdiv {
+    background-color: white;
+    width: 1349px;
+    height: 860px;
+    display: block;
+    padding-top: 150px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 27px;
+}
+    .eleventh1div {
+        display: inline-block;
+        background-color: white;
+        position: relative;
+        padding-top: 100px;
+        width: 380px;
+        height: 600px;
+    }
+    .mateimg {
+        width: 280px;
+        height: 320px;
+    }
+    .pmate {
+        font-family: arial;
+        font-size: 18px;
+        line-height: 0px;
+        color: #333333;
+    }
+    h4 {
+        font-weight: normal;
+        line-height: 0px;
+    }
+
+.twelvethdiv {
+    background-color: rgb(207, 7, 7);
+    width: 1349px;
+    height: 280px;
+    text-align: left;
+}
+    .twelveth1div {
+        color: white;
+        padding: 120px 100px 0px 100px;
+        font-size: 40px;
+        font-family: 'Times New Roman', Times, serif;
+        line-height: 0px;
+    }
+    .pthird {
+        color: white;
+        text-align: left;
+        font-family: arial;
+        padding: 10px 100px;
+        font-size: 18px;
+        line-height: 0px;
+    }
+    .started {
+        background-color: white;
+        color: red;
+        text-align: center;
+        position: relative;
+        left: 1000px;
+        bottom: 70px;
+        border-radius: 5px;
+        padding: 20px;
+        width: 150px;
+    }
+    .started:hover {
+        background-color: rgb(1, 1, 61);
+        color: white;
+        cursor: pointer;
+    }
+
+
+.fourteenthdiv {
+    background-color: rgb(1, 1, 61);
+    width: 1349px;
+    height: 550px;
+    color: whitesmoke;
+}
+    .fourteenth1div {
+        background-color: rgb(1, 1, 61);
+        width: 320px;
+        height: 350px;
+        display: inline-block;
+        bottom: 0px;
+        right: 50px;
+        padding: 100px 0px 0px 100px;
+        text-align: left;
+        font-family: 'Times New Roman', Times, serif;
+        position: relative;
+        
+    }
+    .social {
+        margin-top: 10px;
+        width: 50px;
+        height: 50px;
+        border-radius: 80px;
+    }
+    .fourteenth2div {
+        background-color: rgb(1, 1, 61);
+        width: 200px;
+        height: 350px;
+        bottom: 30px;
+        padding: 100px 0px 0px 40px;
+        display: inline-block;
+        text-align: left;
+        position: relative;
+        right: 55px;
+
+    }
+    .fourteenth3div {
+        background-color: rgb(1, 1, 61);
+        width: 200px;
+        height: 350px;
+        bottom: 30px;
+        padding: 100px 0px 0px 40px;
+        display: inline-block;
+        text-align: left;
+        position: relative;
+        right: 58px;
+    }
+    .fourteenth4div {
+        background-color: rgb(1, 1, 61);
+        width: 400px;
+        height: 350px;
+        padding: 100px 25px 0px 10px;
+        display: inline-block;
+        text-align: left;
+        position: relative;
+        right: 63px;
+        bottom: 25px;
+    }
+    .lo2go {
+        position: relative;
+    }
+    .lo3go {
+        position: relative;
+        left: 70px;
+        bottom: 50px;
+        line-height: 0px;
+    }
+    
+    .email {
+        background-color: white;
+        width: 350px;
+        height: 50px;
+        margin-top: 50px;
+        padding-left: 45px;
+        position: relative;
+        left: 0px;
+    }
+    .subscribe {
+        background-color: rgb(207, 7, 7);
+        color: white;
+        width: 400px;
+        height: 40px;
+        text-align: center;
+        padding-top: 20px;
+        position: relative;
+        left: 0px;
+        top: 30px;
+    }
+    .pfourteenth {
+        font-family: arial;
+        font-size: 15px;
+        color: whitesmoke;
+        line-height: 25px;
+    }
+.fifteenthdiv {
+    background-color: rgb(1, 1, 61);
+    width: 1349px;
+    height: 80px;
+    display: inline-block;
+    position: relative;
+    bottom: 10px
+}

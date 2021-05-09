@@ -1,0 +1,893 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ZEE MARKET</title>
+        <meta name="viewport" content="width = device-width, initial-scale = 1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=MuseoModerno:wght@300&family=Notable&family=Sacramento&family=Yellowtail&display=swap" rel="stylesheet">
+        
+        <link href="css/fontisto/fontisto.min.css" rel="stylesheet" >
+
+        <style>
+
+            
+
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    text-align: center;
+}
+#body {
+    background-color: whitesmoke;
+    width: 100%;
+    text-align: justify;
+    padding: 70px 50px;
+}
+#body h1 {
+    font-size: 50px;
+    color: hotpink;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    font-size: 19px;
+    color: #404040;
+    font-family: arial;
+}
+a {
+    text-decoration: none;
+    color: #404040;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 36px;
+    color: hotpink;
+    font-family: 'Sacramento', cursive;
+}
+.stand {
+    background-color: whitesmoke;
+    width: 100%;
+    padding: 5px;
+    height: auto;
+    text-align: center;
+}
+
+
+
+
+#table1, #table2, #table3, #table4, #table5, #table6, #table7, #table8, #table9  {
+    background-color: hotpink;
+    height: auto;
+    width: 91%;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: start;
+    margin: auto;
+}
+#droptable1, #droptable2, #droptable3, #droptable4, #droptable5, #droptable6, #droptable7, #droptable8, #droptable9 {
+    background-color: darkorange;
+    height: auto;
+    width: 91%;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: start;
+    margin: auto;
+}
+#dropdroptable1, #dropdroptable2, #dropdroptable3, #dropdroptable4, #dropdroptable5, #dropdroptable6, #dropdroptable7, #dropdroptable8, #dropdroptable9 {
+    background-color: purple;
+    height: auto;
+    width: 91%;
+    border-radius: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: start;
+    margin: auto;
+}
+
+
+
+
+
+
+.tray {
+    background-color: whitesmoke;
+    height: 180px;
+    width: 18%;
+    margin: 15px 8px;
+    border-radius: 8px;
+    padding: 30px;
+}
+.shownot1 {
+    background-color: powderblue;
+    height: 180px;
+    width: 18%;
+    margin: 15px 8px;
+    border-radius: 8px;
+    padding: 30px;
+}
+.shownot2 {
+    background-color: salmon;
+    height: 180px;
+    width: 18%;
+    margin: 15px 8px;
+    border-radius: 8px;
+    padding: 30px;
+}
+
+
+
+
+
+
+
+
+.shownow {
+    display: inline;
+}
+
+.greener {
+    background-color: whitesmoke;
+    width: 1.6%;
+    height: 150px;
+    display: block;
+    position: relative;
+    top: 25px;
+}
+.green {
+    color: hotpink;
+    height: 20px;
+    position: relative;
+    font-weight: lighter;
+    background-color: white;
+    position: relative;
+    display: block;
+}
+
+.test2 {
+    position: relative;
+    float: bottom;
+    left: 0px;
+    top: 0px;
+}
+.logo {
+    text-align: center;
+}
+.logoo {
+    width: 150px;
+    height: 140px;
+    margin: 0px auto;
+    border-radius: 50%;
+}
+
+.buttonn {
+    background-color: whitesmoke;
+    width: 80px;
+    height: 20px;
+    margin: 5px;
+    color: hotpink;
+    font-size: 18px;
+    border: none;
+    border-radius: 4px;
+}
+
+.uparrowkey {
+    background-color: hotpink;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 40px;
+    right: 25px;
+    border: 1px solid whitesmoke;
+}
+
+
+/*------------------MEDIA QUERY----------------*/
+
+
+@media screen and (max-width: 770px) {
+    #body {
+        padding: 10px;
+    }
+    #body h1 {
+        font-size: 37px;
+        font-family: sacramento;
+    }
+    p {
+        font-size: 16px;
+    }
+    h2 {
+        font-size: 30px;
+        font-family: sacramento;
+    }
+    #table1, #table2, #table3, #table4, #table5, #table6, #table7, #table8, #table9 {
+        width: auto;
+        justify-content: center;
+    }
+    #droptable1, #droptable2, #droptable3, #droptable4, #droptable5, #droptable6, #droptable7, #droptable8, #droptable9 {
+        width: auto;
+        justify-content: center;
+    }
+    #dropdroptable1, #dropdroptable2, #dropdroptable3, #dropdroptable4, #dropdroptable5, #dropdroptable6, #dropdroptable7, #dropdroptable8, #dropdroptable9 {
+        width: auto;
+        justify-content: center;
+    }
+    .nodisplay {
+        display: none;
+    }
+
+
+
+
+}
+
+        </style>
+    </head>
+
+    <body>
+        <section id="body">
+        <h1>Welcome to Zee Kollections.</h1>
+
+        <p>Kindly find whatever you would like to buy from us;</p>
+                    <br>
+                    <!--
+                <form style="text-align: center;">
+                    <input type="text" class="dg" placeholder="search zeekollections">
+                    <input type="button" name="search" class="dfg" value="search">
+                </form>
+                    -->
+                    <div class="logo">
+                    <img src="zee_pixs/zeekolls.PNG" class="logoo" alt="sdfkn">
+                    </div>
+
+                    <br>
+        <p>We've got various fabric materials, which includes <a href="#shop1"><b>chiffon,</b></a> <a href="#shop2"><b>checkers,</b></a> <a href="#shop3"><b>mix n match,</b></a> 
+        <a href="#shop4"><b>chiffon-scarves,</b></a> <a href="#shop5"><b>flowered-chiffon,</b></a> <a href="#shop6"><b>flowered-crepe,</b></a> <a href="#shop7"><b>jersey-scarves,</b></a>
+        <a href="#shop8"><b>nets,</b></a> <a href="#shop9"><b>pleated-scarves,</b></a> and so much more...</p>
+
+        <br>
+        <br>
+
+        <section>
+            <h2>Chiffon</h2>
+                <section class="stand" id="shop1">
+                    
+                    <div id="table1">
+                        <div class="tray"></div>
+                        <div class="tray  nodisplay"></div>
+                        <div class="tray"></div>
+                        <div class="tray"></div>
+                        <div class="tray nodisplay"></div>
+                        <div class="greener">
+                        <i class="fi fi-angle-dobule-down green" id="downarr1"></i>
+                        </div>
+                    </div>
+                     
+                    <div id="droptable1">
+                        <div class="shownot1">jsdlubflsd</div>
+                        <div class="shownot1">jsdhlj</div>
+                        <div class="shownot1">jbsluef</div>
+                        <div class="shownot1 nodisplay"></div>
+                        <div class="shownot1 nodisplay"></div>
+                        <div class="greener">
+                        <i class="fi fi-angle-dobule-up green" id="uparr1"></i>
+                        <i class="fi fi-angle-dobule-down green" id="downarr11"></i>
+                        </div>
+                    </div>
+
+                    <div id="dropdroptable1">
+                        <div class="shownot2"></div>
+                        <div class="shownot2 nodisplay"></div>
+                        <div class="shownot2"></div>
+                        <div class="shownot2"></div>
+                        <div class="shownot2 nodisplay"></div>
+                        <div class="greener">
+                        <i class="fi fi-angle-dobule-up green" id="uparr11"></i>
+                        </div>
+                    </div>
+                    
+
+                            <button class="buttonn">MORE</button>
+                </section>  
+        </section>
+
+        <br>
+        <br>
+        <br>
+
+
+        <section>
+            <h2>Checkers</h2>
+            <section class="stand" id="shop2">
+                    
+                <div id="table2">
+                    <div class="tray"></div>
+                    <div class="tray"></div>
+                    <div class="tray nodisplay"></div>
+                    <div class="tray"></div>
+                    <div class="tray nodisplay"></div>
+                    <div class="greener">
+                    <i class="fi fi-angle-dobule-down green" id="downarr2"></i>
+                    </div>
+                </div>
+                 
+                <div id="droptable2">
+                    <div class="shownot1">jsdlubflsd</div>
+                    <div class="shownot1">jsdhlj</div>
+                    <div class="shownot1">jbsluef</div>
+                    <div class="shownot1 nodisplay"></div>
+                    <div class="shownot1 nodisplay"></div>
+                    <div class="greener">
+                    <i class="fi fi-angle-dobule-up green" id="uparr2"></i>
+                    <i class="fi fi-angle-dobule-down green" id="downarr22"></i>
+                    </div>
+                </div>
+
+                <div id="dropdroptable2">
+                    <div class="shownot2 nodisplay"></div>
+                    <div class="shownot2"></div>
+                    <div class="shownot2"></div>
+                    <div class="shownot2 nodisplay"></div>
+                    <div class="shownot2"></div>
+                    <div class="greener">
+                    <i class="fi fi-angle-dobule-up green" id="uparr22"></i>
+                    </div>
+                </div>
+                
+
+                        <button class="buttonn">MORE</button>
+            </section>
+        </section>
+
+
+
+
+        <br>
+        <br>
+        <br>
+        <section id="shop3">
+            <h2>Mix n Match</h2>
+            <section class="stand">
+                    
+                <div id="table3">
+                    <div class="tray"></div>
+                    <div class="tray"></div>
+                    <div class="tray"></div>
+                    <div class="tray nodisplay"></div>
+                    <div class="tray nodisplay"></div>
+                    <div class="greener">
+                    <i class="fi fi-angle-dobule-down green" id="downarr3"></i>
+                    </div>
+                </div>
+                 
+                <div id="droptable3">
+                    <div class="shownot1">jsdlubflsd</div>
+                    <div class="shownot1 nodisplay">jsdhlj</div>
+                    <div class="shownot1">jbsluef</div>
+                    <div class="shownot1 nodisplay"></div>
+                    <div class="shownot1"></div>
+                    <div class="greener">
+                    <i class="fi fi-angle-dobule-up green" id="uparr3"></i>
+                    <i class="fi fi-angle-dobule-down green" id="downarr33"></i>
+                    </div>
+                </div>
+
+                <div id="dropdroptable3">
+                    <div class="shownot2 nodisplay"></div>
+                    <div class="shownot2"></div>
+                    <div class="shownot2"></div>
+                    <div class="shownot2"></div>
+                    <div class="shownot2 nodisplay"></div>
+                    <div class="greener">
+                    <i class="fi fi-angle-dobule-up green" id="uparr33"></i>
+                    </div>
+                </div>
+                
+
+                        <button class="buttonn">MORE</button>
+            </section>
+                    
+        </section>
+
+        <br>
+        <br>
+        <br>
+        <section id="shop4">
+            <h2>Chiffon-Scarves</h2>
+            <section class="stand">
+                    
+                <div id="table4">
+                    <div class="tray"></div>
+                    <div class="tray nodisplay"></div>
+                    <div class="tray nodisplay"></div>
+                    <div class="tray"></div>
+                    <div class="tray"></div>
+                    <div class="greener">
+                    <i class="fi fi-angle-dobule-down green" id="downarr4"></i>
+                    </div>
+                </div>
+                 
+                <div id="droptable4">
+                    <div class="shownot1 nodisplay">jsdlubflsd</div>
+                    <div class="shownot1">jsdhlj</div>
+                    <div class="shownot1">jbsluef</div>
+                    <div class="shownot1 nodisplay"></div>
+                    <div class="shownot1"></div>
+                    <div class="greener">
+                    <i class="fi fi-angle-dobule-up green" id="uparr4"></i>
+                    <i class="fi fi-angle-dobule-down green" id="downarr44"></i>
+                    </div>
+                </div>
+
+                <div id="dropdroptable4">
+                    <div class="shownot2 nodisplay"></div>
+                    <div class="shownot2"></div>
+                    <div class="shownot2 nodisplay"></div>
+                    <div class="shownot2"></div>
+                    <div class="shownot2"></div>
+                    <div class="greener">
+                    <i class="fi fi-angle-dobule-up green" id="uparr44"></i>
+                    </div>
+                </div>
+                
+
+
+                        <button class="buttonn">MORE</button>
+            </section>
+
+        </section>
+
+        <br>
+        <br>
+        <br>
+        <section id="shop5">
+            <h2>flowered-chiffon</h2>
+                <section class="stand" id="shop1"]>
+                    
+                    <div id="table5">
+                        <div class="tray nodisplay"></div>
+                        <div class="tray"></div>
+                        <div class="tray"></div>
+                        <div class="tray"></div>
+                        <div class="tray nodisplay"></div>
+                        <div class="greener">
+                        <i class="fi fi-angle-dobule-down green" id="downarr5"></i>
+                        </div>
+                    </div>
+                     
+                    <div id="droptable5">
+                        <div class="shownot1">jsdlubflsd</div>
+                        <div class="shownot1">jsdhlj</div>
+                        <div class="shownot1 nodisplay">jbsluef</div>
+                        <div class="shownot1 nodisplay"></div>
+                        <div class="shownot1"></div>
+                        <div class="greener">
+                        <i class="fi fi-angle-dobule-up green" id="uparr5"></i>
+                        <i class="fi fi-angle-dobule-down green" id="downarr55"></i>
+                        </div>
+                    </div>
+    
+                    <div id="dropdroptable5">
+                        <div class="shownot2"></div>
+                        <div class="shownot2 nodisplay"></div>
+                        <div class="shownot2 nodisplay"></div>
+                        <div class="shownot2"></div>
+                        <div class="shownot2"></div>
+                        <div class="greener">
+                        <i class="fi fi-angle-dobule-up green" id="uparr55"></i>
+                        </div>
+                    </div>
+                    
+    
+        
+                    
+
+                            <button class="buttonn">MORE</button>
+                </section>
+        </section>
+
+        <br>
+        <br>
+        <br>
+        <section id="shop6">
+            <h2>Flowered-crepe</h2>
+            <section class="stand" id="shop1"]>
+                    
+                <div id="table6">
+                    <div class="tray"></div>
+                    <div class="tray nodisplay"></div>
+                    <div class="tray nodisplay"></div>
+                    <div class="tray"></div>
+                    <div class="tray"></div>
+                    <div class="greener">
+                    <i class="fi fi-angle-dobule-down green" id="downarr6"></i>
+                    </div>
+                </div>
+                 
+                <div id="droptable6">
+                    <div class="shownot1">jsdlubflsd</div>
+                    <div class="shownot1 nodisplay">jsdhlj</div>
+                    <div class="shownot1">jbsluef</div>
+                    <div class="shownot1"></div>
+                    <div class="shownot1 nodisplay"></div>
+                    <div class="greener">
+                    <i class="fi fi-angle-dobule-up green" id="uparr6"></i>
+                    <i class="fi fi-angle-dobule-down green" id="downarr66"></i>
+                    </div>
+                </div>
+
+                <div id="dropdroptable6">
+                    <div class="shownot2 nodisplay"></div>
+                    <div class="shownot2"></div>
+                    <div class="shownot2"></div>
+                    <div class="shownot2"></div>
+                    <div class="shownot2 nodisplay"></div>
+                    <div class="greener">
+                    <i class="fi fi-angle-dobule-up green" id="uparr66"></i>
+                    </div>
+                </div>
+                
+
+
+
+                        <button class="buttonn">MORE</button>
+            </section>
+        </section>
+
+        <br>
+        <br>
+        <br>
+        <section id="shop7">
+            <h2>Jersey-Scarves</h2>
+            <section class="stand" id="shop1"]>
+                    
+                <div id="table7">
+                    <div class="tray"></div>
+                    <div class="tray nodisplay"></div>
+                    <div class="tray"></div>
+                    <div class="tray nodisplay"></div>
+                    <div class="tray"></div>
+                    <div class="greener">
+                    <i class="fi fi-angle-dobule-down green" id="downarr7"></i>
+                    </div>
+                </div>
+                 
+                <div id="droptable7">
+                    <div class="shownot1">jsdlubflsd</div>
+                    <div class="shownot1">jsdhlj</div>
+                    <div class="shownot1 nodisplay">jbsluef</div>
+                    <div class="shownot1 nodisplay"></div>
+                    <div class="shownot1"></div>
+                    <div class="greener">
+                    <i class="fi fi-angle-dobule-up green" id="uparr7"></i>
+                    <i class="fi fi-angle-dobule-down green" id="downarr77"></i>
+                    </div>
+                </div>
+
+                <div id="dropdroptable7">
+                    <div class="shownot2"></div>
+                    <div class="shownot2 nodisplay"></div>
+                    <div class="shownot2 nodisplay"></div>
+                    <div class="shownot2"></div>
+                    <div class="shownot2"></div>
+                    <div class="greener">
+                    <i class="fi fi-angle-dobule-up green" id="uparr77"></i>
+                    </div>
+                </div>
+                
+
+
+
+                        <button class="buttonn">MORE</button>
+            </section>
+        </section>
+
+        <br>
+        <br>
+        <br>
+        <section id="shop8">
+            <h2>Nets</h2>
+                <section class="stand">
+                        
+                    <div id="table8">
+                        <div class="tray nodisplay"></div>
+                        <div class="tray"></div>
+                        <div class="tray nodisplay"></div>
+                        <div class="tray"></div>
+                        <div class="tray"></div>
+                        <div class="greener">
+                        <i class="fi fi-angle-dobule-down green" id="downarr8"></i>
+                        </div>
+                    </div>
+                     
+                    <div id="droptable8">
+                        <div class="shownot1">jsdlubflsd</div>
+                        <div class="shownot1 nodisplay">jsdhlj</div>
+                        <div class="shownot1">jbsluef</div>
+                        <div class="shownot1 nodisplay"></div>
+                        <div class="shownot1"></div>
+                        <div class="greener">
+                        <i class="fi fi-angle-dobule-up green" id="uparr8"></i>
+                        <i class="fi fi-angle-dobule-down green" id="downarr88"></i>
+                        </div>
+                    </div>
+    
+                    <div id="dropdroptable8">
+                        <div class="shownot2 nodisplay"></div>
+                        <div class="shownot2"></div>
+                        <div class="shownot2"></div>
+                        <div class="shownot2 nodisplay"></div>
+                        <div class="shownot2"></div>
+                        <div class="greener">
+                        <i class="fi fi-angle-dobule-up green" id="uparr88"></i>
+                        </div>
+                    </div>
+                    
+    
+        
+                    
+
+                            <button class="buttonn">MORE</button>
+                </section>
+            </section>  
+
+        <br>
+        <br>
+        <br>
+        <section id="shop9">
+            <h2>Pleated-Scarves</h2>
+            <section class="stand" id="shop1"]>
+                    
+                <div id="table9">
+                    <div class="tray nodisplay"></div>
+                    <div class="tray"></div>
+                    <div class="tray"></div>
+                    <div class="tray"></div>
+                    <div class="tray nodisplay"></div>
+                    <div class="greener">
+                    <i class="fi fi-angle-dobule-down green" id="downarr9"></i>
+                    </div>
+                </div>
+                 
+                <div id="droptable9">
+                    <div class="shownot1">jsdlubflsd</div>
+                    <div class="shownot1 nodisplay">jsdhlj</div>
+                    <div class="shownot1">jbsluef</div>
+                    <div class="shownot1"></div>
+                    <div class="shownot1 nodisplay"></div>
+                    <div class="greener">
+                    <i class="fi fi-angle-dobule-up green" id="uparr9"></i>
+                    <i class="fi fi-angle-dobule-down green" id="downarr99"></i>
+                    </div>
+                </div>
+
+                <div id="dropdroptable9">
+                    <div class="shownot2"></div>
+                    <div class="shownot2 nodisplay"></div>
+                    <div class="shownot2 nodisplay"></div>
+                    <div class="shownot2"></div>
+                    <div class="shownot2"></div>
+                    <div class="greener">
+                    <i class="fi fi-angle-dobule-up green" id="uparr99"></i>
+                    </div>
+                </div>
+                
+
+
+
+                        <button class="buttonn">MORE</button>
+            </section>
+        </section>
+
+
+        <a href="#body"><div class="uparrowkey"></div></a>
+    </section>
+
+    
+
+    
+    <script src="jquery-3.5.1.min.js">
+            
+    </script>
+    <script>
+
+
+            $(document).ready(function() {
+
+
+
+                /*------------------FOR FIRST STAND--------------------*/
+                $("#droptable1").hide();
+                $("#dropdroptable1").hide();
+
+
+                $("#downarr1").click(function() {
+                    $("#droptable1").slideDown(300);
+                });
+                $("#uparr1").click(function() {
+                    $("#droptable1").slideUp(300);
+                });
+                $("#downarr11").click(function() {
+                    $("#dropdroptable1").slideDown(300);
+                });
+                $("#uparr11").click(function() {
+                    $("#dropdroptable1").slideUp(300);
+                });
+
+
+                /*------------------FOR SECOND STAND--------------------*/
+                $("#droptable2").hide();
+                $("#dropdroptable2").hide();
+
+
+                $("#downarr2").click(function() {
+                    $("#droptable2").slideDown(300);
+                });
+                $("#uparr2").click(function() {
+                    $("#droptable2").slideUp(300);
+                });
+                $("#downarr22").click(function() {
+                    $("#dropdroptable2").slideDown(300);
+                });
+                $("#uparr22").click(function() {
+                    $("#dropdroptable2").slideUp(300);
+                });
+
+
+                /*------------------FOR THIRD STAND--------------------*/
+                $("#droptable3").hide();
+                $("#dropdroptable3").hide();
+
+
+                $("#downarr3").click(function() {
+                    $("#droptable3").slideDown(300);
+                });
+                $("#uparr3").click(function() {
+                    $("#droptable3").slideUp(300);
+                });
+                $("#downarr33").click(function() {
+                    $("#dropdroptable3").slideDown(300);
+                });
+                $("#uparr33").click(function() {
+                    $("#dropdroptable3").slideUp(300);
+                });
+
+
+                /*------------------FOR FORTH STAND--------------------*/
+                $("#droptable4").hide();
+                $("#dropdroptable4").hide();
+
+
+                $("#downarr4").click(function() {
+                    $("#droptable4").slideDown(300);
+                });
+                $("#uparr4").click(function() {
+                    $("#droptable4").slideUp(300);
+                });
+                $("#downarr44").click(function() {
+                    $("#dropdroptable4").slideDown(300);
+                });
+                $("#uparr44").click(function() {
+                    $("#dropdroptable4").slideUp(300);
+                });
+
+
+                /*------------------FOR FIFTH STAND--------------------*/
+                $("#droptable5").hide();
+                $("#dropdroptable5").hide();
+
+
+                $("#downarr5").click(function() {
+                    $("#droptable5").slideDown(300);
+                });
+                $("#uparr5").click(function() {
+                    $("#droptable5").slideUp(300);
+                });
+                $("#downarr55").click(function() {
+                    $("#dropdroptable5").slideDown(300);
+                });
+                $("#uparr55").click(function() {
+                    $("#dropdroptable5").slideUp(300);
+                });
+
+
+                /*------------------FOR SIXTH STAND--------------------*/
+                $("#droptable6").hide();
+                $("#dropdroptable6").hide();
+
+
+                $("#downarr6").click(function() {
+                    $("#droptable6").slideDown(300);
+                });
+                $("#uparr6").click(function() {
+                    $("#droptable6").slideUp(300);
+                });
+                $("#downarr66").click(function() {
+                    $("#dropdroptable6").slideDown(300);
+                });
+                $("#uparr66").click(function() {
+                    $("#dropdroptable6").slideUp(300);
+                });
+
+
+                /*------------------FOR SEVENTH STAND--------------------*/
+                $("#droptable7").hide();
+                $("#dropdroptable7").hide();
+
+
+                $("#downarr7").click(function() {
+                    $("#droptable7").slideDown(300);
+                });
+                $("#uparr7").click(function() {
+                    $("#droptable7").slideUp(300);
+                });
+                $("#downarr77").click(function() {
+                    $("#dropdroptable7").slideDown(300);
+                });
+                $("#uparr77").click(function() {
+                    $("#dropdroptable7").slideUp(300);
+                });
+
+
+                /*------------------FOR EIGHT STAND--------------------*/
+                $("#droptable8").hide();
+                $("#dropdroptable8").hide();
+
+
+                $("#downarr8").click(function() {
+                    $("#droptable8").slideDown(300);
+                });
+                $("#uparr8").click(function() {
+                    $("#droptable8").slideUp(300);
+                });
+                $("#downarr88").click(function() {
+                    $("#dropdroptable8").slideDown(300);
+                });
+                $("#uparr88").click(function() {
+                    $("#dropdroptable8").slideUp(300);
+                });
+
+
+
+                /*------------------FOR NINTH STAND--------------------*/
+                $("#droptable9").hide();
+                $("#dropdroptable9").hide();
+
+
+                $("#downarr9").click(function() {
+                    $("#droptable9").slideDown(300);
+                });
+                $("#uparr9").click(function() {
+                    $("#droptable9").slideUp(300);
+                });
+                $("#downarr99").click(function() {
+                    $("#dropdroptable9").slideDown(300);
+                });
+                $("#uparr99").click(function() {
+                    $("#dropdroptable9").slideUp(300);
+                });
+
+
+
+            });
+
+        
+        
+    </script>
+
+
+
+    </body>
+</html>

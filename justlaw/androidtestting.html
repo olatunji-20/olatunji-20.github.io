@@ -1,0 +1,1330 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            text-align: center;
+        }
+
+        .navbarcontainer {
+            display: flex;
+            width: 100%;
+            height: 60px;
+            background-color: #1a1a1a;
+            position: fixed;
+            z-index: 5;
+        }
+
+        img {
+            width: 50px;
+            height: 50px;
+            margin-right: 3%;
+            position: relative;
+            top: 5px;
+        }
+
+        .logo {
+            min-width: 250px;
+            background-color: #1a1a1a;
+            color: white;
+            display: inline-block;
+            text-align: left;
+            margin: 0% 5%;
+        }
+
+        .navbarcontainer .logo h1 {
+            position: relative;
+            bottom: 15px;
+            font-family: 'Times New Roman', Times, serif;
+
+        }
+
+        .png {
+            float: left;
+        }
+
+        .freecons {
+            background-color: white;
+            color: red;
+            margin-left: 8%;
+            padding: 15px 0px;
+            width: 220px;
+            height: 50px;
+            position: relative;
+            top: 5px;
+            text-align: center;
+            border-radius: 5px;
+        }
+
+        .freecons:hover {
+            background-color: red;
+            color: white;
+            transition: 0.5s;
+        }
+
+        .navs {
+            width: 80px;
+            padding: 18px 10px;
+            text-align: center;
+            flex-wrap: wrap;
+        }
+
+        .navs:hover {
+            cursor: pointer;
+        }
+
+        .navs a {
+            background-color: #1a1a1a;
+            color: white;
+            text-decoration: none;
+        }
+
+        .navs a:hover {
+            background-color: #1a1a1a;
+            color: red;
+            cursor: pointer;
+            transition: 0.4s;
+        }
+
+        @keyframes sheriff {
+            0% {
+                top: 20px
+            }
+
+            100% {
+                top: 0px
+            }
+        }
+
+        .dropdown {
+            display: inline-block;
+            position: relative;
+        }
+
+        .dropdown-content2 {
+            background-color: floralwhite;
+            color: black;
+            display: none;
+            position: relative;
+            width: 150px;
+            height: 85px;
+            text-align: left;
+            line-height: 25px;
+            padding-top: 25px;
+            padding-left: 10px;
+            border-top: 4px solid red;
+            list-style-type: none;
+            animation-name: sheriff;
+            animation-duration: .5s;
+        }
+
+        .dropdown:hover .dropdown-content2 {
+            position: relative;
+            display: block;
+        }
+
+        .dropdown-content {
+            position: relative;
+            display: none;
+            background-color: floralwhite;
+            color: black;
+            width: 150px;
+            height: 100px;
+            line-height: 25px;
+            padding-top: 25px;
+            padding-left: 10px;
+            border-top: 4px solid red;
+            list-style-type: none;
+            text-align: left;
+            animation-name: sheriff;
+            animation-duration: .5s;
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+            position: relative;
+        }
+
+        /* --SECOND CONTAINER-- */
+
+        .second-container {
+            background-color: #f2f2f2;
+            width: 350px;
+            height: auto;
+            padding-top: 90px;
+            padding-left: 15px;
+            position: relative;
+            display: block;
+            text-align: left;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 100px;
+            margin-left: 24%
+        }
+
+        .arrow {
+            position: fixed;
+            z-index: 10;
+            width: 50px;
+            height: 50px;
+            background-color: red;
+            top: 600px;
+            right: 5%;
+            border-radius: 25px;
+        }
+
+        /*---THIRD CONTAINER--*/
+
+        .third-container {
+            background-color: floralwhite;
+            width: 100%;
+            height: auto;
+            display: block;
+            text-align: center;
+            padding: 70px;
+            margin: 50px 0 10px;
+            font-size: 30px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .mover {
+            background-color: red;
+            width: 200px;
+            height: 5px;
+            border-radius: 5px;
+            margin: 0px auto;
+            text-align: center;
+        }
+
+        .movee {
+            background-color: white;
+            width: 8px;
+            height: 5px;
+            position: relative;
+            animation-name: moveee;
+            animation-duration: 4s;
+            animation-iteration-count: infinite;
+        }
+
+        @keyframes moveee {
+            0% {
+                left: 0
+            }
+
+            100% {
+                left: 97%
+            }
+        }
+
+        /*--FOURTH CONTAINER--*/
+
+        .fourth-container {
+            background-color: floralwhite;
+            width: 27%;
+            height: 700px;
+            display: inline-block;
+            text-align: left;
+            margin: 10px;
+        }
+
+        .bashcar {
+            float: top;
+            width: 100%;
+            height: 300px;
+        }
+
+        .doclap {
+            float: top;
+            width: 100%;
+            height: 300px;
+        }
+
+        .lovedoc {
+            float: top;
+            width: 100%;
+            height: 300px;
+        }
+
+        .fourth-container h2 {
+            font-family: 'Times New Roman', Times, serif;
+            text-indent: 30px;
+        }
+
+        .fourthcp {
+            font-family: arial;
+            padding: 0px 30px;
+            font-size: 17px;
+            line-height: 25px;
+            color: #4d4d4d;
+        }
+
+        /*--FIFTH CONTAINER--*/
+        .fifth-container {
+            background-color: #e6e6e6;
+            width: 40%;
+            height: 800px;
+            float: left;
+            padding: 90px;
+            display: inline-block;
+
+        }
+
+        .fifth-container h1 {
+            font-size: 50px;
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .fifthcp {
+            font-family: arial;
+            color: #808080;
+            text-align: left;
+            padding-top: 80px;
+            padding-left: 25px;
+            font-size: 17px;
+            line-height: 25px;
+            margin-bottom: 90px;
+        }
+
+        .case {
+            background-color: white;
+            width: 120px;
+            height: 80px;
+            position: relative;
+            display: inline-block;
+            right: 50px;
+            text-align: center;
+        }
+
+        .cases {
+            background-color: white;
+            width: 120px;
+            height: 80px;
+            position: relative;
+            display: inline-block;
+            text-align: center;
+        }
+
+        .fifth-container .case h1 {
+            line-height: 0px;
+            color: red;
+        }
+
+        .fifth-container .cases h1 {
+            line-height: 0px;
+            color: red;
+        }
+
+        .fifth-container .case p {
+            line-height: 0px;
+            color: #808080;
+        }
+
+        .fifth-container .cases p {
+            line-height: 0px;
+            color: #888888;
+        }
+
+        .smilejus {
+            background-color: #e6e6e6;
+            display: inline-block;
+            position: relative;
+            width: 55%;
+            height: 800px;
+        }
+
+        .smileman {
+            width: 350px;
+            height: 400px;
+            position: relative;
+            top: -250px;
+            right: 120px;
+            z-index: 2;
+        }
+
+        .justice {
+            width: 350px;
+            height: 400px;
+            position: relative;
+            top: 100px;
+            left: 100px;
+        }
+
+        /*--SIXTH CONTAINER--*/
+
+        .sixth-container {
+            background-color: #cccccc;
+            width: 100%;
+            height: 700px;
+            display: block;
+        }
+
+        .form {
+            background-color: white;
+            width: 60%;
+            height: auto;
+            position: relative;
+            padding: 50px 0px;
+            bottom: 100px;
+            margin: 0% 20%;
+        }
+
+        .sixth-container .form h1 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 50px;
+        }
+
+        .sixth-container .form hr {
+            border-bottom: 4px solid red;
+            width: 20%;
+        }
+
+        .former {
+            width: 32%;
+            height: 40px;
+            border-radius: 7px;
+            background-color: #f2f2f2;
+            margin: 20px;
+            text-indent: 20px;
+            font-size: 17px;
+            border: none;
+        }
+
+        .sixth-container .form .formerer {
+            background-color: #f2f2f2;
+            width: 70%;
+            height: 150px;
+            margin: 20px;
+            text-indent: 20px;
+            font-size: 20px;
+            resize: vertical;
+            border: none;
+        }
+
+        .submit {
+            background-color: red;
+            width: 70%;
+            height: 60px;
+            font-size: 19px;
+            text-align: center;
+            color: white;
+            border: none;
+            border-radius: 7px;
+        }
+
+        .seventh-container {
+            background-color: floralwhite;
+            width: 100%;
+            height: 450px;
+            padding: 200px 20px 100px;
+            display: block;
+            margin-bottom: 20px;
+        }
+
+        .seventh-container h1 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 55px;
+        }
+
+        .recent {
+            display: inline-block;
+            width: 120px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 16px;
+            margin-top: 20px;
+            color: #808080;
+            line-height: 0px;
+        }
+
+        .recent:hover {
+            color: red;
+            cursor: pointer;
+        }
+
+        .eight-container {
+            background-color: floralwhite;
+            width: 27%;
+            height: 700px;
+            display: inline-block;
+            margin: 10px;
+            text-align: left;
+        }
+
+        .eight-container h2 {
+            font-family: 'Times New Roman', Times, serif;
+            padding-left: 30px;
+        }
+
+        .picture {
+            float: top;
+            width: 100%;
+            height: 300px;
+        }
+
+
+        .read {
+            color: #808080;
+            padding: 20px 30px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .read:hover {
+            color: red;
+            cursor: pointer;
+        }
+
+
+        .ninth-container {
+            background-color: #1a1a1a;
+            width: 100%;
+            height: auto;
+            padding: 100px;
+            display: inline-block;
+        }
+
+        .ninth-container h1 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 55px;
+        }
+
+        .ninth-container .ninthsub {
+            background-color: transparent;
+            width: 310px;
+            height: 500px;
+            display: inline-block;
+            margin: 50px 30px;
+            padding: 30px 40px;
+            line-height: 28px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .ninth-container .ninthsuber {
+            background-color: transparent;
+            width: 310px;
+            height: 500px;
+            display: inline-block;
+            margin: 50px 30px;
+            padding: 30px 40px;
+            line-height: 28px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .olatunjii {
+            width: 100px;
+            height: 100px;
+            border-radius: 50px;
+        }
+
+        .client {
+            color: white;
+        }
+
+        .ninth-container hr {
+            width: 150px;
+            border-bottom: 15px dotted #cccccc;
+        }
+
+
+        .tenth-container {
+            background-color: floralwhite;
+            width: 100%;
+            height: auto;
+            padding: 150px 150px 100px;
+        }
+
+        .tenth-container h1 {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 55px;
+        }
+
+        .tenthsub {
+            background-color: floralwhite;
+            width: 27%;
+            height: 600px;
+            display: inline-block;
+            margin: 10px;
+        }
+
+        .matespic {
+            width: 80%;
+            height: 320px;
+        }
+
+        .tenthsub h2 {
+            font-family: 'Times New Roman', Times, serif;
+        }
+
+        .tenthsub p {
+            font-family: Arial, Helvetica, sans-serif;
+            line-height: 15px;
+        }
+
+        .eleventh-container {
+            background-color: red;
+            width: 100%;
+            height: 250px;
+            padding: 80px 100px 180px;
+            text-align: left;
+            color: white;
+        }
+
+        .eleventh-container h1 {
+            font-family: 'Times New Roman', Times, serif;
+            line-height: 20px;
+            font-size: 45px;
+        }
+
+        .eleventh-container p {
+            font-family: arial;
+            line-height: 15px;
+        }
+
+        .eleventhsub {
+            background-color: white;
+            color: red;
+            text-align: center;
+            padding: 8px 16px;
+            width: 200px;
+            float: right;
+            position: relative;
+            right: 60px;
+            bottom: 90px;
+            border-radius: 7px;
+        }
+
+        .eleventhsub:hover {
+            background-color: #00001a;
+            color: white;
+            cursor: pointer;
+        }
+
+        .twelveth-container {
+            background-color: #00001a;
+            width: 100%;
+            height: auto;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .first {
+            background-color: #00001a;
+            color: white;
+            width: 390px;
+            height: 400px;
+            float: left;
+            padding-top: 100px;
+            padding-left: 40px;
+            text-align: left;
+        }
+
+        .twelveth-container .first .logo h1 {
+            position: relative;
+            bottom: 15px;
+            font-family: 'Times New Roman', Times, serif;
+
+        }
+
+        .pfooter {
+            padding: 15px;
+            color: white;
+        }
+
+        .sociale {
+            margin-left: 20px;
+            width: 40px;
+            height: 40px;
+            border-radius: 20px;
+        }
+
+        .social {
+            width: 40px;
+            height: 40px;
+            border-radius: 20px;
+        }
+
+        .second {
+            background-color: #00001a;
+            color: white;
+            width: 230px;
+            height: 400px;
+            float: left;
+            padding-top: 100px;
+            text-align: left;
+        }
+
+        .twelveth-container .second ul {
+            list-style-type: none;
+            line-height: 40px;
+        }
+
+        .fourth {
+            background-color: #00001a;
+            color: white;
+            width: 480px;
+            height: 400px;
+            float: left;
+            padding-top: 110px;
+            padding-left: 40px;
+            text-align: left;
+        }
+
+        .emailadd {
+            width: 80%;
+            height: 50px;
+            background-color: white;
+            text-indent: 20px;
+            border: none;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 18px;
+        }
+
+        .subscribe {
+            background-color: red;
+            color: white;
+            width: 80%;
+            height: 50px;
+            border: none;
+        }
+
+
+        .thirteenth-container {
+            background-color: #00001a;
+            padding: 50px;
+            width: 100%;
+            height: auto;
+            color: white;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /* ---FOR RESPONSIVENESS---  ---768PX----*/
+        @media screen and (max-width: 1000px) {
+            .navbarcontainer .freecons {
+                display: none;
+            }
+
+            .navs {
+                display: none;
+            }
+
+            .second-container {
+                font-size: 50px;
+                padding-right: 150px;
+                padding-top: 120px;
+                padding-bottom: 120px;
+                margin-left: 15%;
+
+            }
+
+            .third-container {
+                font-size: 20px;
+            }
+
+            .fourth-container {
+                width: 40%;
+                float: left;
+                flex-wrap: wrap;
+                height: auto;
+            }
+
+            .fifth-container {
+                width: 100%;
+                height: auto;
+                text-align: left;
+                padding-left: 100px;
+            }
+
+            .fifth-container .mover {
+                float: left;
+                margin-left: 100px;
+            }
+
+            .fifth-container .fifthcp {
+                padding-left: 0;
+            }
+
+            .fifth-container .case {
+                margin-left: 80px;
+            }
+
+            .smilejus {
+                width: 100%;
+                height: 700px;
+            }
+
+            .smilejus .justice {
+                position: relative;
+                left: 300px;
+            }
+
+            .smilejus .smileman {
+                position: relative;
+                top: 150px;
+                right: 300px;
+            }
+
+            .sixth-container {
+                height: 750px;
+            }
+
+            .sixth-container .form {
+                bottom: 0;
+            }
+
+
+            .seventh-container h1 {
+                font-size: 45px;
+            }
+
+            .eight-container {
+                width: 40%;
+                float: left;
+                flex-wrap: wrap;
+                height: auto;
+            }
+
+            .ninth-container {
+                width: 100%;
+            }
+
+            .ninth-container h1 {
+                font-size: 40px;
+            }
+
+            .ninth-container .ninthsub {
+                width: 40%;
+                height: auto;
+            }
+
+            .ninth-container .ninthsuber {
+                display: none;
+            }
+
+
+            .tenth-container {
+                padding: 100px 100px 50px;
+            }
+
+            .tenth-container h1 {
+                font-size: 40px;
+            }
+
+            .tenth-container .mover {
+                width: 150px;
+            }
+
+
+            .eleventh-container {
+                width: 100%;
+                height: auto;
+            }
+
+            .eleventh-container h1 {
+                font-size: 25px;
+            }
+
+            .eleventh-container p {
+                font-size: 10px;
+            }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        }
+
+
+
+        /* ---FOR RESPONSIVENESS---  ---460PX----*/
+
+        @media screen and (max-width: 460px) {
+            .navbarcontainer .freecons {
+                display: none;
+            }
+
+            .navs {
+                display: none;
+            }
+
+            .second-container {
+                font-size: 27px;
+                width: 100%;
+                margin-left: 0;
+                padding: 150px 20px;
+            }
+
+            .third-container {
+                font-size: 15px;
+            }
+
+            .third-container .mover {
+                width: 100px;
+            }
+
+            .fourth-container {
+                display: flex;
+                flex-wrap: wrap;
+                width: 100%;
+                height: auto;
+                margin: 20px 0px 0px;
+            }
+
+            .fifth-container {
+                width: 100%;
+                padding: 50px 20px;
+                text-align: left;
+                display: block;
+            }
+
+            .fifth-container h1 {
+                font-size: 35px;
+            }
+
+            .fifth-container .mover {
+                float: left;
+                margin-left: 50px;
+                width: 150px;
+            }
+
+            .fifth-container .case {
+                margin-left: 50px;
+            }
+
+            .smilejus {
+                width: 100%;
+                height: 600px;
+            }
+
+            .smilejus .justice {
+                display: none;
+            }
+
+            .smilejus .smileman {
+                width: 290px;
+                position: relative;
+                top: 100px;
+                left: 0px;
+            }
+
+            .sixth-container .form {
+                width: 100%;
+                height: 800px;
+                margin-left: 0;
+            }
+
+            .sixth-container .form h1 {
+                font-size: 40px;
+            }
+
+            .sixth-container .form .former {
+                padding-left: 15px;
+                width: 80%;
+                margin: 15px;
+            }
+
+            .sixth-container .form .formerer {
+                height: 80px;
+                width: 80%;
+            }
+
+            .sixth-container .form .submit {
+                width: 80%;
+            }
+
+            .seventh-container {
+                height: 400px;
+            }
+
+            .seventh-container h1 {
+                font-size: 30px;
+            }
+
+            .seventh-container .mover {
+                width: 150px;
+                margin-bottom: 20px;
+            }
+
+
+            .eight-container {
+                width: 100%;
+                height: auto;
+                margin: 10px 0px 0px;
+            }
+
+
+            .ninth-container {
+                padding: 60px 0px;
+            }
+
+            .ninth-container .mover {
+                width: 100px;
+            }
+
+            .ninth-container h1 {
+                font-size: 30px;
+            }
+
+            .ninth-container .ninthsub {
+                display: none;
+            }
+
+            .ninth-container .ninthsuber {
+                width: 90%;
+                display: inline-block;
+                height: 600px;
+                margin: 30px auto;
+            }
+
+            .tenth-container h1 {
+                font-size: 35px;
+            }
+
+            .tenth-container .mover {
+                width: 100px;
+            }
+
+            .tenthsub {
+                width: 100%;
+                margin: 5px 0px;
+                height: 600px;
+            }
+
+            .eleventh-container {
+                width: 100%;
+                height: auto;
+            }
+
+            .eleventh-container h1 {
+                font-size: 15px;
+            }
+
+            .eleventh-container p {
+                font-size: 8px;
+            }
+
+            .eleventhsub {
+                position: relative;
+                top: 100px;
+            }
+
+
+
+
+            .first {
+                width: 100%;
+            }
+
+            .second {
+                width: 100%;
+            }
+
+            .fourth {
+                width: 100%;
+            }
+
+
+            .arrow {
+                position: fixed;
+                top: 550px;
+            }
+
+
+
+
+
+
+
+
+
+        }
+    </style>
+
+
+
+</head>
+
+<body>
+    <div class="navbarcontainer">
+        <div class="logo"><img src="logo.PNG" alt="logo" class="png">
+            <h1> Just Law </h1>
+        </div>
+        <div class="navs"><a href="#">Home</a></div>
+        <div class="navs"><a href="#">Services</a></div>
+        <div class="navs"><a href="#">About</a></div>
+        <div class="navs" style="width: 150px"><a href="#">Case Studies</a></div>
+        <div class="navs dropdown"><a href="#">Blog</a>
+            <ul class="dropdown-content2">
+                <li>Blog</li>
+                <li>Blog Details</li>
+            </ul>
+        </div>
+        <div class="navs dropdown"><a href="#">Pages</a>
+            <ul class="dropdown-content">
+                <li>Contact</li>
+                <li>Element</li>
+                <li>Case Details</li>
+            </ul>
+        </div>
+        <div class="freecons">FREE CONSULTATION</div>
+    </div>
+    <div class="second-container"><b>We Will Fight For You Like A Friend</b></div>
+    <div class="arrow"></div>
+    <div class="third-container">
+        <h1>Legal Practice Area.</h1>
+        <div class="mover">
+            <div class="movee"></div>
+        </div>
+    </div>
+
+    <div class="fourth-container"><img class="bashcar" src="bashcar.PNG" alt="bascarr">
+        <h2>Vehicle Accident</h2>
+        <p class="fourthcp">Lorem ipsum dolor sit amet, ectetur adipiscing elit, sed do eiusmod tem incididunt ut labore
+            et dolore.</p>
+    </div>
+
+    <div class="fourth-container"><img class="lovedoc" src="lovedoc.PNG" alt="lovedocc">
+        <h2>Health Law</h2>
+        <p class="fourthcp">Lorem ipsum dolor sit amet, ectetur adipiscing elit, sed do eiusmod tem incididunt ut labore
+            et dolore.</p>
+    </div>
+    <div class="fourth-container"><img class="doclap" src="doclap.PNG" alt="doclapp">
+        <h2>Insurance Law</h2>
+        <p class="fourthcp">Lorem ipsum dolor sit amet, ectetur adipiscing elit, sed do eiusmod tem incididunt ut labore
+            et dolore.</p>
+    </div>
+
+    <div class="fifth-container">
+        <h1>About Just Law</h1>
+        <div class="mover">
+            <div class="movee"></div>
+        </div>
+        <p class="fifthcp">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+            labore et
+            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.</p>
+        <div class="case">
+            <h1>250</h1>
+            <p>Happy Clients</p>
+        </div>
+        <div class="cases">
+            <h1>920</h1>
+            <p>Wining Cases</p>
+        </div>
+    </div>
+    <div class="smilejus">
+        <img class="justice" src="justice.PNG" alt="justicee">
+        <img class="smileman" src="smilman.PNG" alt="smilee">
+    </div>
+
+    <div class="sixth-container">
+        <div class="form">
+            <h1>Free Consultation</h1>
+            <hr>
+            <br>
+            <br>
+            <form>
+                <input class="former" type="text" placeholder="Name">
+                <input class="former" type="number" placeholder="Phone">
+                <input class="former" type="select" placeholder="Health Law">
+                <input class="former" type="email" placeholder="Email"><br>
+                <textarea class="formerer" type="text" placeholder="Your Message"></textarea><br>
+                <input class="submit" type="submit" placeholder="Submit Now">
+            </form>
+        </div>
+    </div>
+
+    <div class="seventh-container">
+        <h1>Recent Case Studies</h1>
+        <div class="mover">
+            <div class="movee"></div>
+        </div>
+        <p class="recent">Vehicle Accident</p>
+        <p class="recent">Health Law</p>
+        <p class="recent">Insurance Law</p>
+        <p class="recent">Bankruptcy</p>
+    </div>
+
+    <div class="eight-container">
+        <img class="picture" src="bashcar.PNG" alt="bashcarr">
+        <h2>Car Accident Insurance Critical Case</h2>
+        <p class="fourthcp">Lorem ipsum dolor sit amet, tetur adipiscing elit, sed do eiusmodmpor incididunt ut labore.
+        </p>
+        <p class="read">Read More</p>
+    </div>
+    <div class="eight-container"><img class="picture" src="doclap.PNG" alt="doclapp">
+        <h2>Legal seperation & Devorce Case</h2>
+        <p class="fourthcp">Lorem ipsum dolor sit amet, tetur adipiscing elit, sed do eiusmodmpor incididunt ut labore.
+        </p>
+        <p class="read">Read More</p>
+    </div>
+    <div class="eight-container"><img class="picture" src="lovedoc.PNG" alt="lovedocc">
+        <h2>Boys Case Study Critical Family Case</h2>
+        <p class="fourthcp">Lorem ipsum dolor sit amet, tetur adipiscing elit, sed do eiusmodmpor incididunt ut labore.
+        </p>
+        <p class="read">Read More</p>
+    </div>
+
+
+    <div class="ninth-container">
+        <h1>Words From Clients</h1>
+        <div class="mover">
+            <div class="movee"></div>
+        </div>
+
+        <div class="ninthsub">
+            <p style="color: white;">Lorem ipsum dolor sit amet, consectetur adispicing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+            <img class="olatunjii" src="olatunji.PNG" alt="olat">
+            <p class="client">Falana Sheriff</p>
+        </div>
+        <div class="ninthsub">
+            <p style="color: white;">Lorem ipsum dolor sit amet, consectetur adispicing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+            <img class="olatunjii" src="olatunji.PNG" alt="olat">
+            <p class="client">Falana Sheriff</p>
+        </div>
+        <div class="ninthsuber">
+            <p style="color: white;">Lorem ipsum dolor sit amet, consectetur adispicing elit, sed do eiusmod tempor
+                incididunt ut labore et dolore
+                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip</p>
+            <img class="olatunjii" src="olatunji.PNG" alt="olat">
+            <p class="client">Falana Sheriff</p>
+        </div>
+
+        <hr>
+
+    </div>
+
+    <div class="tenth-container">
+        <h1>Team Mates</h1>
+        <div class="mover">
+            <div class="movee"></div>
+        </div>
+
+    </div>
+
+    <div class="tenthsub">
+        <img class="matespic" src="john.PNG" alt="johnn">
+        <h2>John Smith</h2>
+        <p>Senior Lawyer</p>
+    </div>
+    <div class="tenthsub">
+        <img class="matespic" src="emma.PNG" alt="emmaa">
+        <h2>Emma Bunton</h2>
+        <p>Professional Lawyer</p>
+    </div>
+    <div class="tenthsub">
+        <img class="matespic" src="bunton.PNG" alt="buntonn">
+        <h2>Bunton Jonathon</h2>
+        <p>Top Rated Lawyer</p>
+    </div>
+
+
+    <div class="eleventh-container">
+        <h1>Get Your Answer in Just 5 Minutes</h1>
+        <p>Checking your loan options does not affect your credit score!s</p>
+        <div class="eleventhsub">
+            <p>GET STARTED>></p>
+        </div>
+    </div>
+
+    <div class="twelveth-container">
+
+        <div class="first">
+            <div class="logo"><img src="logo.PNG" alt="logo" class="png">
+                <h1> Just Law </h1>
+            </div>
+            <br>
+            <p class="pfooter">Seddo eiusmod tempor incididunt ut labore et dolore magna aliqua. consectetur pisicin
+                elit, sed do eiusmod tempor.</p>
+            <img class="sociale" src="facebook.png" alt="social">
+            <img class="social" src="whatsapp.png" alt="social">
+            <img class="social" src="twitter.png" alt="social">
+            <img class="social" src="opera.png" alt="social">
+
+        </div>
+        <div class="second">
+            <ul>
+                <li><b>Company</b></li>
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Browse Pets</li>
+                <li>Blog</li>
+                <li>Contact Us</li>
+            </ul>
+        </div>
+        <div class="second">
+            <ul>
+                <li><b>Services</b></li>
+                <li>O' Connor group</li>
+                <li>Our Business Model</li>
+                <li>Our Lawyers Team</li>
+                <li>Most Recent Cases</li>
+                <li>Hot Lawyers News</li>
+            </ul>
+        </div>
+        <div class="fourth">
+            <p><b>Newsletter</b></p>
+            <p>For Latest updates sign up here </p>
+            <form> <input class="emailadd" type="email" placeholder="Email Address"></form>
+            <br><br>
+            <button class="subscribe"> SUBSCRIBE >> </botton>
+        </div>
+    </div>
+
+
+    <div class="thirteenth-container">
+        <p>Copyright ©2020 All rights reserved | This template is made with by Colorlib</p>
+    </div>
+
+
+
+
+
+
+
+
+</body>
+
+</html>

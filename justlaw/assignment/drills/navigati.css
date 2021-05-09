@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+}
+ul {
+    width: 100%;
+    height: auto;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: block;
+    overflow: visible;
+}
+ul li a {
+    width: 100px;
+    float: left;
+    text-align: center;
+    padding: 12px 14px;
+    background-color: red;
+    border-radius: 7px;
+}
+ul li a:hover {
+    background-color: black;
+    color: white;
+}
+
+.dropdown {
+    display: inline-block;
+    position: relative;
+}
+li ul.dropdown-content {
+    background-color: green;
+    width: 140px;
+    height: 120px;
+    position: relative;
+    top: 47px;
+    display: none;
+    padding: 10px;
+}
+.dropdown:hover .dropdown-content {
+    position: relative;
+    display: block;
+}
+
+.dpdc {
+    display: block;
+    text-indent: 0px;
+    line-height: 20px;
+    font-size: 15px;
+    text-align: left;
+}
+

@@ -1,0 +1,156 @@
+body {
+    margin: 0px;
+}
+.navbar {
+    width: 1349px;
+    height: 60px;
+    background-color: #1a1a1a;
+    font-family: 'Times New Roman', Times, serif;
+    position: fixed;
+    padding: 0px 90px 0px 90px;
+    z-index: 5;
+}
+.logoo {
+    height: 40px;
+    position: relative;
+    top: 8px;
+}
+li {
+    color: white;
+    display: inline-block;
+    text-indent: 40px;
+    font-size: 16px;
+    line-height: 0px;
+    position: relative;
+    bottom: 8px;
+    transform: scale(1);
+}
+li:hover {
+    color: red;
+    cursor: pointer;
+}
+.got {
+    color: white;
+    display: inline-block;
+    line-height: 0px;
+    padding-right: 30px;
+}
+ul {
+    display: inline-block;
+    font-family: arial;
+}
+.consulttt {
+    background-color: white;
+    color: red;
+    position: relative;
+    height: 20px;
+    bottom: 7px;
+    padding: 20px 50px 0px 0px;
+    margin: 0px 70px;
+    border-radius: 5px;
+}
+.consulttt:hover {
+    background-color: red;
+    color: white;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+@keyframes sheriff {
+    0%{top: 50px}
+    100%{top: 40px}
+}
+.dropdown-content1 {
+    background-color: white;
+    position: absolute;
+    display: none;
+    padding-top: 20px;
+    border-top: 4px solid red;
+    width: 150px;
+    height: 85px;
+    animation-name: sheriff;
+    animation-duration: 0.6s;
+}
+.dropdown-content2 {
+    background-color: white;
+    position: absolute;
+    display: none;
+    padding-top: 20px;
+    border-top: 4px solid red;
+    width: 150px;
+    height: 55px;
+    animation-name: sheriff;
+    animation-duration: 0.3s;
+}
+.dropdown:hover .dropdown-content1 {
+    display: block;
+    position: absolute;
+    top: 30px;
+}
+.dropdown:hover .dropdown-content2 {
+    display: block;
+    position: absolute;
+    top: 30px;
+}
+
+
+.she {
+    display: block;
+    color: black;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: left;
+    text-indent: 0px;
+}
+
+
+
+
+
+
+
+.navdiv1 {
+    background-color: cornflowerblue;
+    width: 1349px;
+    height: 500px;
+}
+.navdiv2 {
+    background-color: cyan;
+    width: 400px;
+    height: 500px;
+}
+.navdiv3 {
+    background-color: khaki;
+    width: 400px;
+    height: 500px;
+}
+
+
+.shedrop {
+    position: relative;
+    display: inline-block;
+}
+.shedrop-content {
+    background-color: red;
+    width: 100px;
+    height: 300px;
+    display: none;
+}
+.shedrop:hover .shedrop-content {
+    display: block;
+    position: absolute;
+    top: 30px;
+}
+
+.navdiv3sub {
+    background-color: brown;
+    width: 400px;
+    height: 300px;
+}
+
+
+
+
