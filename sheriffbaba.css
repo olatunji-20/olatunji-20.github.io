@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: whitesmoke;
+    background-color: #ffffff;
     color: #404044;
     text-align: center;
     padding: 0px;
@@ -22,7 +22,7 @@ html {
 }
 
 .navbar {
-    background-color: #8c8c8c;
+    background-color: #ff5c33;
     text-align: left;
     width: 100%;
     height: 70px;
@@ -37,8 +37,13 @@ html {
     background-color: transparent;
     width: 176px;
     height: 60px;
-    margin: 6px 0px 4px 40px;
+    margin: 7px 0px 3px 40px;
     float: left;
+}
+.logo-image {
+    width: 200px;
+    height: 50px;
+    margin: 5px 0px;
 }
 
 #icon {
@@ -77,7 +82,7 @@ html {
     margin: 5px 3px;
     height: 30px;
     padding: 5px;
-    background-color: #8c8c8c;
+    background-color: #ff5c33;
     color: #f2f2f2;
     text-align: center;
     font-size: 15px;
@@ -86,8 +91,8 @@ html {
 }
 
 .navbar ul li:hover {
-    background-color: #404040;
-    color: #8c8c8c;
+    background-color: #000000;
+    color: #ff5c33;
     transition: 0.3s;
 }
 
@@ -108,12 +113,13 @@ html {
     font-size: 50px;
     font-weight: bolder;
     font-family: sacramento;
+    color: #000000;
 }
 
 .scroll {
     width: 60px;
     height: 60px;
-    background-color:  #8c8c8c;
+    background-color:  #ff5c33;
     color: whitesmoke;
     border-radius: 50%;
     position: fixed;
@@ -156,21 +162,28 @@ h1 {
     width: 70%;
     height: 300px;
     padding: 30px;
+    font-size: 18px;
     margin: 0px auto;
     box-shadow: 2px 4px 6px 4px #282835;
 }
 
 #projects {
-    background-color: #f2f2f2;
+    background-color: #ffffff;
     height: auto;
     width: 90%;
     margin: 0px auto;
     padding: 15px;
+    font-size: 1px;
     border-radius: 10px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+#projects .frame1 p {
+    text-align: left;
+    padding: 20px 10px;
 }
 
 .frame1 {
@@ -181,6 +194,7 @@ h1 {
     margin: 20px auto;
     text-align: center;
     box-shadow:  2px 4px 6px 4px #282835;
+    word-break: break-all;
 }
 
 .frame {
@@ -198,7 +212,7 @@ h1 {
 }
 
 .site-img:hover {
-    border: #ffddcc solid 8px;
+    border: #ff8566 solid 6px;
     transition: .3s;
 }
 
@@ -227,8 +241,34 @@ h1 {
     padding: 10px;
 }
 
+.smedia1:active {
+    background-color: black;
+    color: white;
+}
+
+.smedia2:active {
+    background-color: #005ce6;
+    color: floralwhite;
+}
+.smedia3:active {
+    background-color: floralwhite;
+    color: blue;
+}
+.smedia4:active {
+    background-color: #4d94ff;
+    color: floralwhite;
+}
+
+.smedia5:active {
+    background-color: floralwhite;
+    color: #00b300;
+}
+
+
+
+
 #services {
-    background-color: #f2f2f2;
+    background-color: #ffffff;
     height: auto;
     width: 90%;
     margin: 0px auto;
@@ -263,18 +303,43 @@ h1 {
 }
 
 .footer {
-    background-color: #8c8c8c;
-    color: #e6e6e6;
+    background-color: #ff5c33;
+    color: floralwhite;
     width: 100%;
     height: 70px;
     padding: 5px;
 }
 
-.frame2 .skills {
+#services .frame2 .skills1 {
     font-size: 200px;
-    color: #e6e6e6;
-    background-color: #8c8c8c;
+    color: #ff5c33;
+    background-color: #ffffff;
 }
+
+#services .frame2 .skills2 {
+    font-size: 200px;
+    color: #ffffff;
+    background-color: #3333cc;
+}
+
+#services .frame2 .skills3 {
+    font-size: 200px;
+    color: #1a75ff;
+    background-color: #ffffff;
+}
+
+#services .frame2 .skills4 {
+    font-size: 200px;
+    color: green;
+    background-color: #ffffff;
+}
+
+#services .frame2 .skills5 {
+    font-size: 200px;
+    color: #ffffff;
+    background-color: red;
+}
+
 
 
 
@@ -308,7 +373,7 @@ h1 {
                 }
 
                 .logo {
-                    margin: 12px 0px 8px 3px;
+                    margin: 10px 0px 10px 3px;
                 }
 
                 .logo-image {
@@ -351,7 +416,7 @@ h1 {
                 }
 
                 .lander {
-                    font-size: 35px;
+                    font-size: 40px;
                     font-weight: bold;
                 }
 
@@ -369,9 +434,8 @@ h1 {
                 .writer {
                     width: 80%;
                     height: auto;
-                    font-weight: 150;
-                    font-size: 15px;
-                    padding: 8px 5px;
+                    font-size: 12px;
+                    padding: 15px;
                 }
 
 
@@ -382,6 +446,11 @@ h1 {
 
                 #projects {
                     flex-direction: column;
+                }
+
+                #projects .frame1 p {
+                    font-size: 12px;
+                    padding: 15px 8px;
                 }
 
                 .frame1 {
@@ -423,9 +492,12 @@ h1 {
                 }
 
                 .conta1 {
-                    width: 90%;
-                    padding: 20px;
+                    width: 80%;
+                    padding: 15px;
+                    font-size: 12px;
+                    height: auto;
                 }
+
 
                 #contacts {
                     width: 30%;
@@ -441,9 +513,27 @@ h1 {
                     font-size: 30px;
                     padding: 10px;
                 }
-                .frame2 .skills {
+
+                #services .frame2 .skills1{
                     font-size: 150px;
                 }
+
+                #services .frame2 .skills2{
+                    font-size: 150px;
+                }
+
+                #services .frame2 .skills3{
+                    font-size: 150px;
+                }
+
+                #services .frame2 .skills4{
+                    font-size: 150px;
+                }
+
+                #services .frame2 .skills5{
+                    font-size: 150px;
+                }
+
 
 
             }
