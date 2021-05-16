@@ -22,7 +22,7 @@ html {
 }
 
 .navbar {
-    background-color: #ff5c33;
+    background-color: #262626;
     text-align: left;
     width: 100%;
     height: 70px;
@@ -30,7 +30,7 @@ html {
     margin: 0px;
     position: fixed;
     z-index: 9;
-    box-shadow: 1px 1px 7px 3px #282835;
+    box-shadow: 1px 1px 7px #282835;
 }
 
 .logo {
@@ -82,7 +82,7 @@ html {
     margin: 5px 3px;
     height: 30px;
     padding: 5px;
-    background-color: #ff5c33;
+    background-color: #262626;
     color: #f2f2f2;
     text-align: center;
     font-size: 15px;
@@ -91,13 +91,14 @@ html {
 }
 
 .navbar ul li:hover {
-    background-color: #000000;
-    color: #ff5c33;
+    background-color: #f2f2f2;
+    color: #262626;
+    border: dashed #262626 1px;
     transition: 0.3s;
 }
 
 #word {
-    background-image: url("images/baloon.png");
+    background-image: url("images/umb.jpg");
     opacity: 1;
     height: 100vh;
     width: 50vw;
@@ -112,14 +113,14 @@ html {
 .lander {
     font-size: 50px;
     font-weight: bolder;
-    font-family: sacramento;
-    color: #000000;
+    font-family: 'Poppins', sans-serif;
+    color: #262626;
 }
 
 .scroll {
     width: 60px;
     height: 60px;
-    background-color:  #ff5c33;
+    background-color:  #262626;
     color: whitesmoke;
     border-radius: 50%;
     position: fixed;
@@ -133,7 +134,7 @@ html {
 
 h1 {
     font-size: 50px;
-    font-family: sacramento;
+    font-family: 'Poppins', sans-serif;
     font-weight: bolder;
     text-shadow: 2px 5px 4px #404040;
 }
@@ -303,7 +304,7 @@ h1 {
 }
 
 .footer {
-    background-color: #ff5c33;
+    background-color: #262626;
     color: floralwhite;
     width: 100%;
     height: 70px;
@@ -312,7 +313,7 @@ h1 {
 
 #services .frame2 .skills1 {
     font-size: 200px;
-    color: #ff5c33;
+    color: #262626;
     background-color: #ffffff;
 }
 
@@ -366,6 +367,7 @@ h1 {
                     width: auto;
                     height: auto;
                     background-color: floralwhite;
+                    color: #333333;
                     display: inline;
                     z-index: 9;
                     float: right;
@@ -377,7 +379,7 @@ h1 {
                 }
 
                 .logo-image {
-                    width: 200px;
+                    width: 190px;
                     height: 50px;
                 }
 
