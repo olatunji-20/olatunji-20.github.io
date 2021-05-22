@@ -40,6 +40,7 @@ html {
     margin: 7px 0px 3px 40px;
     float: left;
 }
+
 .logo-image {
     width: 200px;
     height: 50px;
@@ -91,7 +92,7 @@ html {
 }
 
 .navbar ul li:hover {
-    background-color: #f2f2f2;
+    background-color: #f2f2f244;
     color: #262626;
     border: dashed #262626 1px;
     transition: 0.3s;
@@ -120,7 +121,7 @@ html {
 .scroll {
     width: 60px;
     height: 60px;
-    background-color:  #262626;
+    background-color: #262626;
     color: whitesmoke;
     border-radius: 50%;
     position: fixed;
@@ -140,30 +141,30 @@ h1 {
 }
 
 .writer {
-    background-color: #f2f2f2;
+    background-color: #f2f2f244;
     color: #404040;
     width: 500px;
     height: auto;
     margin: 0px auto;
-    padding: 25px;
-    font-size: 18px;
+    padding: 20px;
+    font-size: 15px;
     text-align: center;
-    box-shadow:  2px 4px 6px 4px #404040;
+    box-shadow: 2px 4px 6px 4px #404040;
 }
 
 .self-img {
     width: 236px;
     height: 500px;
     margin: 0px auto;
-    box-shadow: 2px 4px 6px 4px  #282835;
+    box-shadow: 2px 4px 6px 4px #282835;
 }
 
 .conta1 {
-    background-color: #f2f2f2;
+    background-color: #f2f2f244;
     width: 70%;
     height: 300px;
-    padding: 30px;
-    font-size: 18px;
+    padding: 20px;
+    font-size: 15px;
     margin: 0px auto;
     box-shadow: 2px 4px 6px 4px #282835;
 }
@@ -188,13 +189,13 @@ h1 {
 }
 
 .frame1 {
-    background-color: #f2f2f2;
+    background-color: #f2f2f244;
     width: 22%;
     height: 410px;
     border-radius: 10px;
     margin: 20px auto;
     text-align: center;
-    box-shadow:  2px 4px 6px 4px #282835;
+    box-shadow: 2px 4px 6px 4px #282835;
     word-break: break-all;
 }
 
@@ -218,9 +219,9 @@ h1 {
 }
 
 #contacts {
-    background-color: #f2f2f2;
+    background-color: #f2f2f244;
     width: 70%;
-    height: auto;  
+    height: auto;
     margin: 0px auto;
     box-shadow: 2px 4px 6px 4px #282835;
     display: flex;
@@ -230,7 +231,7 @@ h1 {
 }
 
 .smedia1, .smedia2, .smedia3, .smedia4, .smedia5 {
-    background-color:#e6e6e6;
+    background-color: #d9d9d9;
     color: #242429;
     width: 70px;
     height: 70px;
@@ -251,10 +252,12 @@ h1 {
     background-color: #005ce6;
     color: floralwhite;
 }
+
 .smedia3:active {
     background-color: floralwhite;
     color: blue;
 }
+
 .smedia4:active {
     background-color: #4d94ff;
     color: floralwhite;
@@ -264,9 +267,6 @@ h1 {
     background-color: floralwhite;
     color: #00b300;
 }
-
-
-
 
 #services {
     background-color: #ffffff;
@@ -282,7 +282,7 @@ h1 {
 }
 
 .frame2 {
-    background-color: #f2f2f2;
+    background-color: #f2f2f244;
     width: 25%;
     height: 250px;
     margin: 10px;
@@ -341,201 +341,157 @@ h1 {
     background-color: red;
 }
 
-
-
-
-
-
-
-
-            @media screen and (max-width: 400px) {
-
-                *{
-                    box-sizing: border-box;
-                }
-
-                h1 {
-                    font-size: 30px;
-                }
-
-                .header {
-                    margin-left: 10px;
-                    font-size: 25px;
-                }
-
-                #icon {
-                    width: auto;
-                    height: 22px;
-                    background-color: floralwhite;
-                    color: #262626;
-                    display: inline;
-                    z-index: 9;
-                    float: right;
-                    margin: 25px 10px;
-                }
-
-                .logo {
-                    margin: 6px 0px 10px 3px;
-                }
-
-                .logo-image {
-                    width: 180px;
-                    height: 50px;
-                }
-
-                #word {
-                    display: inline-block;
-                    width: 50vw;
-                }
-
-                #dropd {
-                    background-color: #e6e6e6;
-                    color: #282835;
-                    width: 60vw;
-                    height: 70vh;
-                    z-index: 3;
-                    overflow: auto;
-                    padding-top: 20px;
-                    display: inline;
-                    border: 1px solid #242429;
-                    position: fixed;
-                    right: 0px;
-                    text-align: left;
-                }
-
-                #dropd ul li {
-                    padding: 10px 3px;
-                }
-                                
-                .navbar ul {
-                    display: none;
-                }
-
-                #word {
-                    height: 100vh;
-                    width: 80vw;
-                    padding: 65% 0px;
-                }
-
-                .lander {
-                    font-size: 40px;
-                    font-weight: bold;
-                }
-
-                .scroll {
-                    width: 50px;
-                    height: 50px;
-                    right: 5px;
-                    bottom: 30px;
-                }
-
-                .writer h3 {
-                    font-size: 17px;
-                }
-
-                .writer {
-                    width: 80%;
-                    height: auto;
-                    font-size: 12px;
-                    padding: 15px;
-                }
-
-
-                .self-img {
-                    width: 188Px;
-                    height: 400px;
-                }
-
-                #projects {
-                    flex-direction: column;
-                }
-
-                #projects .frame1 p {
-                    font-size: 12px;
-                    padding: 15px 8px;
-                }
-
-                .frame1 {
-                    width: 90%;
-                }
-
-                #services{
-                    width: 90%;
-                    margin: 0px auto;
-                    display: flex;
-                    flex-direction: column;
-                    flex-wrap: wrap;
-                    justify-content: center;
-                }
-
-                .frame {
-                    width: 95%;
-                    height: 200px;
-                    margin: 8px auto;
-                    border-radius: 7px;
-                }
-
-                .frame2 {
-                    width: 90%;
-                    height: auto;
-                    margin: 8px auto;
-                    border-radius: 7px;
-                    text-align: center;
-                    padding: 15px;
-                }
-
-                .phoneimg {
-                    width: 150px;
-                    height: 150px;
-                }
-
-                .phoneimg :hover {
-                    transform: scale(1.50);
-                }
-
-                .conta1 {
-                    width: 80%;
-                    padding: 15px;
-                    font-size: 12px;
-                    height: auto;
-                }
-
-
-                #contacts {
-                    width: 30%;
-                    height: auto;
-                    flex-direction: column;
-                    justify-content: center;
-                }
-
-                .smedia1, .smedia2, .smedia3, .smedia4, .smedia5 {
-                    width: 50px;
-                    height: 50px;
-                    margin: 15px auto;
-                    font-size: 30px;
-                    padding: 10px;
-                }
-
-                #services .frame2 .skills1{
-                    font-size: 150px;
-                }
-
-                #services .frame2 .skills2{
-                    font-size: 150px;
-                }
-
-                #services .frame2 .skills3{
-                    font-size: 150px;
-                }
-
-                #services .frame2 .skills4{
-                    font-size: 150px;
-                }
-
-                #services .frame2 .skills5{
-                    font-size: 150px;
-                }
-
-
-
-            }
+@media screen and (max-width: 400px) {
+    * {
+        box-sizing: border-box;
+    }
+    h1 {
+        font-size: 30px;
+    }
+    .header {
+        margin-left: 10px;
+        font-size: 25px;
+    }
+    #icon {
+        width: auto;
+        height: 22px;
+        background-color: #262626;
+        color: floralwhite;
+        display: inline;
+        z-index: 9;
+        float: right;
+        margin: 25px 10px;
+    }
+    .logo {
+        margin: 6px 0px 10px 3px;
+    }
+    .logo-image {
+        width: 180px;
+        height: 50px;
+    }
+    #word {
+        display: inline-block;
+        width: 50vw;
+    }
+    #dropd {
+        background-color: #e6e6e6;
+        color: #282835;
+        width: 60vw;
+        height: 70vh;
+        z-index: 3;
+        overflow: auto;
+        padding-top: 20px;
+        display: inline;
+        border: 1px solid #242429;
+        position: fixed;
+        right: 0px;
+        text-align: left;
+    }
+    #dropd ul li {
+        padding: 10px 3px;
+    }
+    .navbar ul {
+        display: none;
+    }
+    #word {
+        height: 100vh;
+        width: 80vw;
+        padding: 65% 0px;
+    }
+    .lander {
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .scroll {
+        width: 50px;
+        height: 50px;
+        right: 5px;
+        bottom: 30px;
+    }
+    .writer h3 {
+        font-size: 17px;
+    }
+    .writer {
+        width: 80%;
+        height: auto;
+        font-size: 12px;
+        padding: 15px;
+    }
+    .self-img {
+        width: 188Px;
+        height: 400px;
+    }
+    #projects {
+        flex-direction: column;
+    }
+    #projects .frame1 p {
+        font-size: 12px;
+        padding: 15px 8px;
+    }
+    .frame1 {
+        width: 90%;
+    }
+    #services {
+        width: 90%;
+        margin: 0px auto;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .frame {
+        width: 95%;
+        height: 200px;
+        margin: 8px auto;
+        border-radius: 7px;
+    }
+    .frame2 {
+        width: 90%;
+        height: auto;
+        margin: 8px auto;
+        border-radius: 7px;
+        text-align: center;
+        padding: 15px;
+    }
+    .phoneimg {
+        width: 150px;
+        height: 150px;
+    }
+    .phoneimg :hover {
+        transform: scale(1.50);
+    }
+    .conta1 {
+        width: 80%;
+        padding: 15px;
+        font-size: 12px;
+        height: auto;
+    }
+    #contacts {
+        width: 30%;
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .smedia1, .smedia2, .smedia3, .smedia4, .smedia5 {
+        width: 50px;
+        height: 50px;
+        margin: 15px auto;
+        font-size: 30px;
+        padding: 10px;
+    }
+    #services .frame2 .skills1 {
+        font-size: 150px;
+    }
+    #services .frame2 .skills2 {
+        font-size: 150px;
+    }
+    #services .frame2 .skills3 {
+        font-size: 150px;
+    }
+    #services .frame2 .skills4 {
+        font-size: 150px;
+    }
+    #services .frame2 .skills5 {
+        font-size: 150px;
+    }
+}
