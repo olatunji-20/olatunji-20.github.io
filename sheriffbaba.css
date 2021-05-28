@@ -30,7 +30,7 @@ html {
     margin: 0px;
     position: fixed;
     z-index: 9;
-    box-shadow: 1px 1px 7px #282835;
+    box-shadow: 1px 1px 4px #282835;
 }
 
 .logo {
@@ -92,7 +92,7 @@ html {
     padding: 20% 0px;
     position: relative;
     display: inline-block;
-    box-shadow: 2px 4px 6px 4px #282835;
+    box-shadow: 1px 2px 2px 2px #282835;
 }
 
 .lander {
@@ -114,7 +114,7 @@ html {
     right: 30px;
     bottom: 40px;
     border: 2px solid whitesmoke;
-    box-shadow: 2px 3px 4px #404040;
+    box-shadow: 1px 2px 2px 2px #282835;
 }
 
 h1 {
@@ -129,18 +129,18 @@ h1 {
     color: #404040;
     width: 60%;
     height: auto;
-    margin: 0px auto;
+    margin: 40px auto;
     padding: 20px;
     font-size: 15px;
     text-align: center;
-    box-shadow: 2px 4px 6px 4px #404040;
+    box-shadow: 1px 2px 2px 2px #404040;
 }
 
 .self-img {
     width: 236px;
     height: 500px;
-    margin: 0px auto;
-    box-shadow: 2px 4px 6px 4px #282835;
+    margin: 20px auto;
+    box-shadow: 1px 2px 2px 2px #282835;
 }
 
 .conta1 {
@@ -149,8 +149,8 @@ h1 {
     height: 300px;
     padding: 20px;
     font-size: 15px;
-    margin: 0px auto;
-    box-shadow: 2px 4px 6px 4px #282835;
+    margin: 20px auto;
+    box-shadow: 1px 2px 2px 2px #282835;
 }
 
 #projects {
@@ -179,7 +179,7 @@ h1 {
     border-radius: 10px;
     margin: 20px auto;
     text-align: center;
-    box-shadow: 2px 4px 6px 4px #282835;
+    box-shadow: 1px 2px 2px 2px #282835;
     word-break: break-all;
 }
 
@@ -207,7 +207,7 @@ h1 {
     width: 70%;
     height: auto;
     margin: 0px auto;
-    box-shadow: 2px 4px 6px 4px #282835;
+    box-shadow: 1px 2px 2px 2px #282835;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -215,7 +215,7 @@ h1 {
 }
 
 .smedia1, .smedia2, .smedia3, .smedia4, .smedia5 {
-    background-color: floralwhite;
+    background-color: #f2f2f266;
     color: #242429;
     width: 70px;
     height: 70px;
@@ -252,7 +252,6 @@ h1 {
     color: #00b300;
 }
 
-
 .footer {
     background-color: #262626;
     color: floralwhite;
@@ -260,7 +259,6 @@ h1 {
     height: 70px;
     padding: 5px;
 }
-
 
 .skills {
     background-color: #ffffff;
@@ -303,23 +301,18 @@ h1 {
     z-index: 2;
 }
 
-
 .skimage {
     height: 99.9%;
     width: 100%;
 }
 
-
-
 @media screen and (max-width: 750px) {
     * {
         box-sizing: border-box;
     }
-
     .navbar ul {
         display: none;
     }
-
     #icon {
         display: inline;
         float: right;
@@ -329,7 +322,6 @@ h1 {
         color: floralwhite;
         margin: 25px 20px;
     }
-    
     #dropd {
         background-color: #ffffff;
         color: #282835;
@@ -348,37 +340,24 @@ h1 {
         list-style-type: none;
         padding: 10px 3px;
     }
-
     #projects {
         padding: 5px;
     }
-
     #projects .frame1 {
         width: 35%;
     }
-
     #contacts {
         width: 70%;
     }
-
     .smedia1, .smedia2, .smedia3, .smedia4, .smedia5 {
         width: 50px;
         height: 50px;
         font-size: 30px;
     }
-
     .skills .pack {
         width: 40%;
     }
-
-
-
-
-
-
 }
-
-
 
 @media screen and (max-width: 415px) {
     * {
@@ -469,7 +448,6 @@ h1 {
         font-size: 12px;
         padding: 15px 8px;
     }
-    
     #services {
         width: 90%;
         margin: 0px auto;
@@ -484,22 +462,18 @@ h1 {
         margin: 8px auto;
         border-radius: 7px;
     }
-
     .skills .pack {
         width: 95%;
         margin: 10px 0px;
     }
-
     .skills .pack .package {
         font-size: 12px;
         top: 25px;
     }
-
     .skills .pack .packager {
         width: 50%;
         height: 100px;
     }
-
     .phoneimg {
         width: 150px;
         height: 150px;
@@ -526,5 +500,4 @@ h1 {
         font-size: 30px;
         padding: 10px;
     }
-    
 }
