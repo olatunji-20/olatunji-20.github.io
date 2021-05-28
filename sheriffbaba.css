@@ -227,30 +227,50 @@ h1 {
     padding: 10px;
 }
 
+.smedia6 {
+    background-color: #f2f2f266;
+    color: #242429;
+    width: 70px;
+    height: 70px;
+    margin: 15px;
+    border-radius: 50%;
+    display: block;
+    position: relative;
+    font-size: 45px;
+    padding: 10px;
+    display: none;
+}
+
 .smedia1:hover {
     background-color: black;
-    color: white;
+    color: #ffffff;
 }
 
 .smedia2:hover {
     background-color: #005ce6;
-    color: floralwhite;
+    color: #ffffff;
 }
 
 .smedia3:hover {
-    background-color: floralwhite;
+    background-color: #ffffff;
     color: blue;
 }
 
 .smedia4:hover {
     background-color: #4d94ff;
-    color: floralwhite;
+    color: #ffffff;
 }
 
 .smedia5:hover {
-    background-color: floralwhite;
+    background-color: #ffffff;
     color: #00b300;
 }
+
+.smedia6:hover {
+    background-color: #ffffff;
+    color: #ff3300;
+}
+
 
 .footer {
     background-color: #262626;
@@ -500,4 +520,15 @@ h1 {
         font-size: 30px;
         padding: 10px;
     }
+
+    .smedia6 {
+        width: 50px;
+        height: 50px;
+        margin: 15px auto;
+        font-size: 30px;
+        padding: 10px;
+        display: inline-block;
+    }
+
+
 }
