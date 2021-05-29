@@ -139,17 +139,17 @@ h1 {
 .self-img {
     width: 236px;
     height: 500px;
-    margin: 20px auto;
+    margin: 10px auto;
     box-shadow: 1px 2px 2px 2px #282835;
 }
 
 .conta1 {
     background-color: #f2f2f244;
     width: 70%;
-    height: 300px;
+    height: auto;
     padding: 20px;
     font-size: 15px;
-    margin: 20px auto;
+    margin: 10px auto;
     box-shadow: 1px 2px 2px 2px #282835;
 }
 
@@ -175,11 +175,14 @@ h1 {
 .frame1 {
     background-color: #f2f2f244;
     width: 22%;
-    height: 410px;
+    height: auto;
     border-radius: 10px;
     margin: 20px auto;
     text-align: center;
     box-shadow: 1px 2px 2px 2px #282835;
+}
+
+.frame1 a {
     word-break: break-all;
 }
 
@@ -284,7 +287,7 @@ h1 {
     background-color: #ffffff;
     width: 80%;
     height: auto;
-    margin: 0px auto;
+    margin: 20px auto;
     padding: 0px 10px;
     display: flex;
     flex-direction: row;
@@ -292,7 +295,7 @@ h1 {
     justify-content: space-around;
 }
 
-.pack {
+.skills .pack {
     background-color: #ffffff;
     width: 30%;
     height: auto;
@@ -304,7 +307,7 @@ h1 {
     justify-content: center;
 }
 
-.package {
+.skills .pack .package {
     background-color: #ffffff;
     width: 50%;
     height: 50px;
@@ -313,8 +316,12 @@ h1 {
     border: 1px solid black;
 }
 
-.packager {
-    background-color: whitesmoke;
+.skills .pack .package h1 {
+    font-size: 20px;
+}
+
+.skills .pack .packager {
+    background-color: #ffffff;
     width: 42%;
     height: 120px;
     border: 1px solid black;
@@ -376,6 +383,12 @@ h1 {
     }
     .skills .pack {
         width: 40%;
+    }
+    .skills .pack .package {
+        width: 45%;
+    }
+    .skills .pack .packager {
+        width: 53%;
     }
 }
 
@@ -482,28 +495,34 @@ h1 {
         margin: 8px auto;
         border-radius: 7px;
     }
+    .skills {
+        background-color: #ffffff;
+        width: 99%;
+        margin: 40px auto;
+    }
     .skills .pack {
-        width: 95%;
-        margin: 10px 0px;
+        background-color: #ffffff;
+        padding: 5px;
+        width: 48%;
+        height: auto;
+        margin: 7px 0px;
     }
     .skills .pack .package {
-        font-size: 12px;
-        top: 25px;
+        width: 43%;
+        height: 35px;
+        top: 18px;
+    }
+    .skills .pack .package h1 {
+        font-size: 15px;
     }
     .skills .pack .packager {
-        width: 50%;
-        height: 100px;
+        width: 53%;
+        height: 70px;
     }
-    .phoneimg {
-        width: 150px;
-        height: 150px;
-    }
-    .phoneimg :hover {
-        transform: scale(1.50);
-    }
+   
     .conta1 {
         width: 80%;
-        padding: 15px;
+        padding: 10px;
         font-size: 12px;
         height: auto;
     }
