@@ -96,7 +96,7 @@ html {
 }
 
 .lander {
-    font-size: 50px;
+    font-size: 45px;
     font-weight: bolder;
     font-family: 'Poppins', sans-serif;
     color: #262626;
@@ -498,7 +498,8 @@ h1 {
     .skills {
         background-color: #ffffff;
         width: 99%;
-        margin: 40px auto;
+        margin: 20px auto;
+        padding: 0px 10px;
     }
     .skills .pack {
         background-color: #ffffff;
@@ -513,7 +514,8 @@ h1 {
         top: 18px;
     }
     .skills .pack .package h1 {
-        font-size: 15px;
+        font-size: 11px;
+        text-shadow: 0px 0px black;
     }
     .skills .pack .packager {
         width: 53%;
