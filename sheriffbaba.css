@@ -121,7 +121,7 @@ h1 {
     font-size: 50px;
     font-family: 'Poppins', sans-serif;
     font-weight: bolder;
-    text-shadow: 2px 5px 4px #404040;
+    text-shadow: 1px 3px 2px #404040;
 }
 
 .writer {
@@ -145,7 +145,7 @@ h1 {
 
 .conta1 {
     background-color: #f2f2f244;
-    width: 70%;
+    width: 60%;
     height: auto;
     padding: 20px;
     font-size: 15px;
