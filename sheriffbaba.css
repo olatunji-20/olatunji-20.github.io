@@ -274,6 +274,34 @@ h1 {
     color: #ff3300;
 }
 
+@keyframes resume {
+    0% {
+        background-color: #404044;
+        color: white;
+    }
+    100% {
+            background-color: #f2f2f2;
+            color: #404044;
+        }
+}
+
+.resume {
+    background-color: #404044;
+    color: white;
+    width: 150px;
+    height: auto;
+    margin: 0px auto;
+    padding: 1px;
+    border-radius: 5px;
+    animation-name: resume;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+.resume a {
+    text-decoration: none;
+    color: inherit;
+}
 
 .footer {
     background-color: #262626;
