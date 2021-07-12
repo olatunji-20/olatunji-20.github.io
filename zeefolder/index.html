@@ -5,530 +5,11 @@
     <meta charset="utf-8">
     <title>ZEE_KOLLECTIONS</title>
     <meta name="viewport" content="width = device-width, initial-scale = 1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=MuseoModerno:wght@300&family=Notable&family=Sacramento&family=Yellowtail&display=swap" rel="stylesheet">
-    
-
-    <style>
-    html {
-        scroll-behavior: smooth;
-    }
-
-
-    * {
-    box-sizing: border-box;
-}
-
-body {
-    margin: 0;
-    text-align: center;
-}
-
-.header {
-    background-color: whitesmoke;
-    width: 100%;
-    padding-top: 100px;
-    padding-bottom: 25px;
-    height: auto;
-}
-
-.logo {
-    animation-name: logoo;
-    animation-timing-function: linear;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-}
-
-@keyframes logoo {
-    0% {
-        transform: rotate(0deg)
-    }
-    100% {
-        transform: rotate(359deg)
-    }
-}
-
-.first-container {
-    background-color: whitesmoke;
-    width: 100%;
-    padding-top: 5px;
-    padding-bottom: 20px;
-    position: sticky;
-    top: 0;
-    z-index: 5;
-}
-
-.first-container h1 {
-    display: block;
-    color: hotpink;
-    font-family: arial;
-    font-size: 70px;
-    line-height: 0;
-    text-shadow: 5px 5px 5px rgba(0,0,0,0.5);
-}
-.first-container .zee2 {
-    display: none;
-}
-
-.first-container p {
-    position: relative;
-    color: hotpink;
-    display: block;
-    line-height: 0px;
-    font-size: 15px;
-}
-
-ul {
-    background-color: hotpink;
-    width: 100%;
-    display: inline-block;
-    padding: 0px;
-    margin: 0px;
-}
-
-ul li {
-    list-style-type: none;
-    display: inline-block;
-}
-
-ul li a {
-    color: floralwhite;
-    width: 150px;
-    padding: 17px 20px;
-    display: inline-block;
-    text-decoration: none;
-    font-family: 'Montserrat', sans-serif;
-}
-
-ul li a:hover {
-    background-color: whitesmoke;
-    color: hotpink;
-    cursor: pointer;
-    font-weight: bolder;
-    transition: 0.5s;
-}
-
-.second-container {
-    background-color: whitesmoke;
-    width: 100%;
-    padding: 50px;
-    margin: 0px;
-}
-
-.second-container h1 {
-    font-family: 'Sacramento', cursive;
-    font-size: 60px;
-    color: hotpink;
-}
-
-.third-container {
-    background-color: whitesmoke;
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding-bottom: 50px;
-}
-
-.thirdsub {
-    background-color: hotpink;
-    width: 270px;
-    height: auto;
-    margin: 15px;
-    border: none;
-    border-radius: 4px;
-    box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
-}
-
-.thirdsubpix {
-    width: 90%;
-    height: 220px;
-    padding-top: 15px;
-}
-
-.thirdsubpix:hover {
-    transform: scale(1.05);
-    transition: 0.6s;
-}
-
-.third-container .thirdsub p {
-    color: whitesmoke;
-    font-family: 'Courier New', Courier, monospace;
-    line-height: 2px;
-    font-weight: bolder;
-}
-
-button {
-    background-color: hotpink;
-    width: 250px;
-    height: 50px;
-    font-size: 23px;
-    font-weight: bolder;
-    font-family: 'Courier New', Courier, monospace;
-    border: none;
-    border-radius: 4px;
-    box-shadow: 3px 3px 3px rgba(0,0,0,0.5);
-    margin-top: 30px;
-    color: whitesmoke;
-    animation-name: buttonee;
-    animation-iteration-count: infinite;
-    animation-duration: 2s;
-}
-
-@keyframes buttonee {
-    0% {
-        background-color: hotpink;
-        color: whitesmoke;
-    }
-    25% {
-        background-color: whitesmoke;
-        color: hotpink;
-    }
-    50% {
-        background-color: hotpink;
-        color: whitesmoke;
-    }
-    101% {
-        background-color: whitesmoke;
-        color: hotpink;
-    }
-}
-
-
-
-.fourth-container {
-    background-color: whitesmoke;
-    width: 100%;
-    padding: 30px;
-    margin: 0px;
-}
-
-.fourth-container h1 {
-    font-family: 'Sacramento', cursive;
-    font-size: 55px;
-    color: hotpink;
-}
-
-.fifth-container {
-    background-color: whitesmoke;
-    width: 100%;
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.fifthsub {
-    background-color: hotpink;
-    width: 280px;
-    height: 450px;
-    margin: 15px;
-}
-
-.fifthsubpix {
-    width: 100%;
-    height: 100%;
-}
-
-.sixth-container {
-    background-color: whitesmoke;
-    width: 100%;
-    height: auto;
-    padding: 100px 0px 20px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: flex-start;
-    color: whitesmoke;
-}
-
-.sixthsub1 {
-    background-color: hotpink;
-    width: 440px;
-    height: 350px;
-    color: whitesmoke;
-    font-family: 'Montserrat', sans-serif;
-}
-.sixthsub2 {
-    background-color: hotpink;
-    width: 220px;
-    height: 350px;
-    text-align: left;
-    padding: 50px 20px;
-    font-family: 'Montserrat', sans-serif;
-}
-.sixthsub3 {
-    background-color: hotpink;
-    width: 220px;
-    height: 350px;
-    text-align: left;
-    padding: 50px 20px; 
-    font-family: 'Montserrat', sans-serif;
-}
-
-.zeekollsee {
-    width: 100%;
-    height: 350px;
-    padding: 50px 40px 10px 20px;
-    text-align: left;
-}
-.logob {
-    width: 70px;
-    height: 70px;
-    border-radius: 35px;
-    display: inline-block;
-}
-.pb {
-    display: inline;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 27px;
-    font-weight: bolder;
-    position: relative;
-    bottom: 23px;
-    left: 15px;
-}
-.pbb {
-    text-align: justify;
-}
-.sixth-container .sixthsub1 .sixthsubsub {
-    width: 60px;
-    height: 50px;
-    display: inline-block;
-    text-align: center;
-    margin: 25px 10px;
-}
-.socialpixs {  
-    width: 40px;
-    height: 40px;
-    margin-top: 0px;
-}
-
-.sixth-container .sixthsub2 p a {
-    text-decoration: none;
-    color: whitesmoke;
-    position: relative;
-}
-
-.sixth-container .sixthsub2 p a:hover {
-    position: relative;
-    left: 15px;
-    transition: .9s;
-}
-.sixth-container .sixthsub3 p a {
-    text-decoration: none;
-    color: whitesmoke;
-    position: relative;
-}
-.sixth-container .sixthsub3 p a:hover {
-    position: relative;
-    left: 15px;
-    transition: .9s;
-}
-.sixthsub4 {
-    background-color: hotpink;
-    width: 455px;
-    height: 350px;
-    text-align: left;
-    padding: 40px 30px;
-    font-family: 'Montserrat', sans-serif;
-}
-.emailadd {
-    width: 90%;
-    height: 40px;
-    margin: 25px 0px 0px;
-    text-indent: 15px;
-    font-size: 17px;
-}
-.submitt {
-    width: 90%;
-    height: 35px;
-    background-color: green;
-    margin: 30px 0px 0px;
-    color: whitesmoke;
-    font-size: 16px;
-}
-
-.backtotop {
-    width: 60px;
-    height: 60px;
-    background-color: hotpink;
-    color: whitesmoke;
-    border-radius: 50%;
-    position: fixed;
-    z-index: 9;
-    float: right;
-    right: 30px;
-    bottom: 40px;
-    border: 1px solid whitesmoke;
-}
-
-.footer {
-    background-color: hotpink;
-    width: 100%;
-    height: auto;
-    padding: 5px;
-}
-
-.footer p {
-    color: whitesmoke;
-    font-size: 20px;
-    font-family: 'Montserrat', sans-serif;
-}
-
-
-
-
-
-/*-------MEDIA QUERY--------*/
-
-@media screen and (max-width: 400px) {
-    body {
-        margin: 2px;
-        text-align: center;
-    }
-    .header {
-        padding-top: 60px;
-    }
-    .logo {
-        width: 120px;
-    }
-    .first-container h1 {
-        display: none;
-    }
-    .first-container .zee2 {
-        display: inline;
-        font-size: 40px;
-        font-family: Arial, Helvetica, sans-serif;
-        color: hotpink;
-        line-height: 45px;
-        text-shadow: 2px 2px 2px rgba(0,0,0,0.5);
-    }
-    .first-container p {
-        font-size: 10px;
-        display: none;
-    }
-    ul li {
-        display: block;
-    }
-    ul li a {
-        width: 100%;
-        padding: 10px 20px;
-    }
-
-    .second-container {
-        padding: 25px;
-    }
-    .second-container h1 {
-        font-size: 35px;
-    }
-    .third-container {
-        flex-direction: column;
-        padding-bottom: 30px;
-        justify-content: space-around;
-    }
-    .thirdsub {
-        width: 80%;
-        margin: 10px auto;
-    }
-    button {
-        width: 120px;
-        height: 30px;
-    }
-
-
-    .fourth-container {
-        padding: 15px;
-    }
-    .fourth-container h1 {
-        font-size: 30px;
-    }
-
-    .sixth-container {
-        padding: 40px 0px 20px;
-    }
-    .sixthsub1 {
-        width: 100%;
-        height: auto;
-    }
-    .zeekollsee {
-        padding: 45px 15px 0px 20px;
-        height: auto;
-    }
-
-    .logob {
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        margin-left: 10px;
-    }
-    .pb {
-        font-size: 18px;
-        bottom: 13px;
-    }
-    .sixth-container .sixthsub1 .sixthsubsub {
-        width: 50px;
-        margin: 0px 3px;
-        height: 45px;
-    }
-    .socialpixs {
-        margin-top: 0px;
-    }
-    .pbb {
-        font-size: 14px;
-        padding: 15px 5px;
-    }
-
-    .sixthsub2 {
-        width: 100%;
-        height: auto;
-        padding: 20px 0px 10px 30px;
-        font-size: 14px;
-    }
-    .sixth-container .sixthsub2 p a {
-        font-size: 14px;
-    }
-    .sixth-container .sixthsub3 p a {
-        font-size: 14px;
-    }
-    .sixthsub3 {
-        width: 100%;
-        height: auto;
-        padding: 20px 0px 10px 30px;
-        font-size: 14px;
-    }
-    .sixthsub4 {
-        width: 100%;
-        height: auto;
-        padding: 20px auto 40px;
-    }
-    .sixthsub4 p {
-        font-size: 14px;
-    }
-    .emailadd {
-        width: 95%;
-    }
-    .submitt {
-        width: 95%;
-    }
-    .backtotop {
-        width: 60px;
-        height: 60px;
-        right: 20px;
-        bottom: 20px;
-    }
-    .footer p {
-        font-size: 13px;
-    }
-
-
-
-
-}
-
-    
-    </style>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat&family=MuseoModerno:wght@300&family=Notable&family=Sacramento&family=Yellowtail&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="zee.css" type="text/css">
+    <link href="css/fontisto/fontisto.min.css" rel="stylesheet">
 </head>
 
 
@@ -538,15 +19,16 @@ button {
         <div class="header">
             <img class="logo" src="zee_pixs/zeekolls.PNG" alt="zeelogo">
         </div>
-        </section>
-    
-        <div class="first-container">
-            <h1>ZEE KOLLECTIONS</h1> <h1 class="zee2">ZEE<br>KOLLECTIONS</h1>
-            <p><i> ...for your everyday wear and events with a special focus on simplicity and uniqueness</i></p>
-        </div>
-        
+    </section>
 
-        <section id="navbare">
+    <div class="first-container">
+        <h1>ZEE KOLLECTIONS</h1>
+        <h1 class="zee2">ZEE<br>KOLLECTIONS</h1>
+        <p><i> ...for your everyday wear and events with a special focus on simplicity and uniqueness.</i></p>
+    </div>
+
+
+    <section id="navbare">
         <ul id="#navbar">
             <li><a href="#">Home</a></li>
             <li><a target="_blank" href="About_Zeekollections.html">About Us</a></li>
@@ -554,118 +36,130 @@ button {
             <li><a href="#">Menu</a></li>
             <li><a href="#">Contact Us</a></li>
         </ul>
-        </section>
-    
-        <div class="second-container">
-            <h1>What would you like to buy from Us?</h1>
-        </div>
-    
-        <a href="#headest"><div class="backtotop"><p>🔝</p></div></a>
-        <div class="third-container">
-            <div class="thirdsub"> <img class="thirdsubpix" src="zee_pixs/checkers.jpg" alt="checkers">
-                <p>CHECKERS</p>
-            </div>
-            <div class="thirdsub"> <img class="thirdsubpix" src="zee_pixs/chiffon_scarves.jpg" alt="chiffscarves">
-                <p> CHIFFON SCARVES </p>
-            </div>
-            <div class="thirdsub"> <img class="thirdsubpix" src="zee_pixs/flowered_chiffon.jpg" alt="flowered chiffon">
-                <p> FLOWERED CHIFFON</p>
-            </div>
-            <div class="thirdsub"> <img class="thirdsubpix" src="zee_pixs/flowered_crepe.jpg" alt="flowered crepe">
-                <p> FLOWERED CREPE </p>
-            </div>
-            <div class="thirdsub"> <img class="thirdsubpix" src="zee_pixs/jersey_scarves.jpg" alt="jersey scarves">
-                <p> JERSEY SCARVES </p>
-            </div>
-            <div class="thirdsub"> <img class="thirdsubpix" src="zee_pixs/mix n match.jpg" alt="mix n match">
-                <p> MIX n MATCH </p>
-            </div>
-            <div class="thirdsub"> <img class="thirdsubpix" src="zee_pixs/nets.jpg" alt="net">
-                <p> NETS </p>
-            </div>
-            <div class="thirdsub"> <img class="thirdsubpix" src="zee_pixs/pleated_scarves.jpg" alt="jersey">
-                <p> PLEATED SCARVES </p>
-            </div>
-            <a href="#headest"><button> MORE </button></a>
-        </div>
-    
-    
-    
-        <div class="fourth-container">
-            <h1>Be the Main-Figure at your Events, with our 'time-to-time' Style Inspo's</h1>
-        </div>
-    
-        <div class="fifth-container">
-            <div class="fifthsub"> <img class="fifthsubpix" src="zee_pixs/zainab4.png" alt="baba"> </div>
-            <div class="fifthsub"> <img class="fifthsubpix" src="zee_pixs/baba.PNG" alt="baba"> </div>
-            <div class="fifthsub"> <img class="fifthsubpix" src="zee_pixs/zainab1.PNG" alt="baba"> </div>
-            <div class="fifthsub"> <img class="fifthsubpix" src="zee_pixs/zainab3.jpg" alt="baba"> </div>
-    
-            <button> MORE </button>
-    
-        </div>
-    
-    
-    
-        <div class="sixth-container">
-            <div class="sixthsub1">
-                <div class="zeekollsee">
-                    <img class="logob" src="zee_pixs/zeekolls.PNG" alt="zeelogo">
-                    <h2 class="pb">ZEE KOLLECTIONS</h2>
+    </section>
 
-                    <p class="pbb">jbdufbg iushugbb uhwi ghf  uhgiw ug iugh w8 iuhg8ir ihqhrg 988hq9 8rhg 98hyq9 igjnio iwung uiwhurg  hisdf uigqihrg ioqh riugh iuwhiur</p>
-                
-                    <a href="#"><div class="sixthsubsub"><img class="socialpixs" src="zee_pixs/facebook2.png" alt="socialm"></div></a>
+    <div class="second-container">
+        <h1>What would you like to buy from Us?</h1>
+    </div>
 
-                    <a href="#"><div class="sixthsubsub"><img class="socialpixs" src="zee_pixs/whatsapp2.png" alt="socialme"></div></a>
-
-                    <a href="#"><div class="sixthsubsub"><img class="socialpixs" src="zee_pixs/whatsapp2.png" alt="socialme"></div></a>
-
-                    <a href="#"><div class="sixthsubsub"><img class="socialpixs" src="zee_pixs/instagram.png" alt="socialmed"></div></a>
-
-                </div>
-            </div>
-            <div class="sixthsub2">
-                <h3>Company</h3>
-                    <p><a href="#">Home</a></p>
-                    <p><a target="_blank" href="About_Zeekollections.html">About Us</a></p>
-                    <p><a href="#">Contact Us</a></p>
-                    <p><a href="#">Services</a></p>
-                    <p><a href="#navbare">Menu</a></p>
-                
-            </div>
-            <div class="sixthsub3">
-                <h3>Services</h3>
-                <p><a href="#">Buy From Us</a></p>
-                <p><a href="#">Place an Order</a></p>
-                <p><a href="#">Style Inspo's</a></p>
-                <p><a href="#">Advertise with Us</a></p>
-                <p><a href="#">Menu</a></p>
-            </div>
-            <div class="sixthsub4">
-                <h2>Newsletter</h2>
-                <p>For Latest updates sign up here</p>
-
-                <form>
-                    
-                    <input type="email" name="email" placeholder="Email-address" class="emailadd">
-                
-                    <input type="submit" value="Submit" name="submit" class="submitt">
-                </form>
-            </div>
-    
-            
+    <a href="#headest">
+        <div class="backtotop">
+            <i style="padding: 15px" class="fi fi-angle-dobule-up"></i>
         </div>
-    
-    
+    </a>
+    <div class="third-container">
+        <div class="thirdsub"> <img class="thirdsubpix" src="zee_pixs/checkers.jpg" alt="checkers">
+            <p>CHECKERS</p>
+        </div>
+        <div class="thirdsub"> <img class="thirdsubpix" src="zee_pixs/chiffon_scarves.jpg" alt="chiffscarves">
+            <p> CHIFFON SCARVES </p>
+        </div>
+        <div class="thirdsub"> <img class="thirdsubpix" src="zee_pixs/flowered_chiffon.jpg" alt="flowered chiffon">
+            <p> FLOWERED CHIFFON</p>
+        </div>
+        <div class="thirdsub"> <img class="thirdsubpix" src="zee_pixs/flowered_crepe.jpg" alt="flowered crepe">
+            <p> FLOWERED CREPE </p>
+        </div>
+        <div class="thirdsub"> <img class="thirdsubpix" src="zee_pixs/jersey_scarves.jpg" alt="jersey scarves">
+            <p> JERSEY SCARVES </p>
+        </div>
+        <div class="thirdsub"> <img class="thirdsubpix" src="zee_pixs/mix n match.jpg" alt="mix n match">
+            <p> MIX n MATCH </p>
+        </div>
+        <div class="thirdsub"> <img class="thirdsubpix" src="zee_pixs/nets.jpg" alt="net">
+            <p> NETS </p>
+        </div>
+        <div class="thirdsub"> <img class="thirdsubpix" src="zee_pixs/pleated_scarves.jpg" alt="jersey">
+            <p> PLEATED SCARVES </p>
+        </div>
+        <a href="#headest"><button> MORE </button></a>
+    </div>
+
+
+
+    <div class="fourth-container">
+        <h1>Be the Main-Figure at your Events, with our 'time-to-time' Style Inspo's</h1>
+    </div>
+
+    <div class="fifth-container">
+        <div class="fifthsub"> <img class="fifthsubpix" src="zee_pixs/zainab4.png" alt="baba"> </div>
+        <div class="fifthsub"> <img class="fifthsubpix" src="zee_pixs/baba.PNG" alt="baba"> </div>
+        <div class="fifthsub"> <img class="fifthsubpix" src="zee_pixs/zainab1.PNG" alt="baba"> </div>
+        <div class="fifthsub"> <img class="fifthsubpix" src="zee_pixs/zainab3.jpg" alt="baba"> </div>
+
+        <a href="#"><button> MORE </button></a>
+
+    </div>
+
+
+
+    <div class="sixth-container">
+        <div class="sixthsub1">
+            <div class="zeekollsee">
+                <img class="logob" src="zee_pixs/zeekolls.PNG" alt="zeelogo">
+                <h2 class="pb">ZEE KOLLECTIONS</h2>
+
+                <p class="pbb"> ...for your everyday wear and events with a special focus on simplicity and uniqueness. We specialize in creating and offering a variety of classy and unique designs for formal and casual events.</p>
+
+                <a href="#">
+                    <div class="sixthsubsub"><i class="fi fi-facebook"></i></div>
+                </a>
+
+                <a href="#">
+                    <div class="sixthsubsub"><i class="fi fi-whatsapp"></i></div>
+                </a>
+
+                <a href="#">
+                    <div class="sixthsubsub"><i class="fi fi-instagram"></i></div>
+                </a>
+
+                <a href="#">
+                    <div class="sixthsubsub"><i class="fi fi-twitter"></i></div>
+                </a>
+
+            </div>
+        </div>
+        <div class="sixthsub2">
+            <h3>Company</h3>
+            <p><a href="#">Home</a></p>
+            <p><a target="_blank" href="About_Zeekollections.html">About Us</a></p>
+            <p><a href="#">Contact Us</a></p>
+            <p><a href="#">Services</a></p>
+            <p><a href="#navbare">Menu</a></p>
+
+        </div>
+        <div class="sixthsub3">
+            <h3>Services</h3>
+            <p><a href="#">Buy From Us</a></p>
+            <p><a href="#">Place an Order</a></p>
+            <p><a href="#">Style Inspo's</a></p>
+            <p><a href="#">Advertise with Us</a></p>
+            <p><a href="#">Menu</a></p>
+        </div>
+        <div class="sixthsub4">
+            <h2>Newsletter</h2>
+            <p>For Latest updates sign up here</p>
+
+            <form>
+
+                <input type="email" name="email" placeholder="Email-address" class="emailadd">
+
+                <input type="submit" value="Submit" name="submit" class="submitt">
+            </form>
         </div>
 
-       
-    
-        <div class="footer">
-            <p> © copyright shit shit shit kanihf iajoj ojaisjeg ojoakg okjsoir oi0osur shit shit shit shit </p>
-        </div>
-    
+
+    </div>
+
+
+    </div>
+
+
+
+    <div class="footer">
+        <p> © copyright ZEE_KOLLECTIONS, 2021 </p>
+    </div>
+
 </body>
 
 </html>
