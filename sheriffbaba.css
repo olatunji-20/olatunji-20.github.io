@@ -206,7 +206,7 @@ h1 {
 
 .frame1 {
     background-color: #f2f2f244;
-    width: 22%;
+    width: 250px;
     height: auto;
     border: 1px solid #999999;
     border-radius: 5px;
@@ -313,17 +313,6 @@ h1 {
     color: #ff3300;
 }
 
-@keyframes resume {
-    0% {
-        background-color: #404044;
-        color: white;
-    }
-    100% {
-        background-color: #f2f2f2;
-        color: #404044;
-    }
-}
-
 .resume {
     background-color: #404044;
     color: white;
@@ -339,6 +328,11 @@ h1 {
     animation-duration: 4s;
     animation-timing-function: ease;
     animation-iteration-count: infinite;
+}
+
+.resume:hover {
+    background: white;
+    color: #404044;
 }
 
 .resume a {
