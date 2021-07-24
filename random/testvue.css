@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: 'Montserrat', cursive;
 }
 
 h2 {
@@ -11,7 +12,6 @@ h2 {
     width: 60%;
     height: auto;
     margin: 40px auto;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding: 40px 20px;
     text-align: center;
     border-radius: 3px;
