@@ -5,7 +5,7 @@ const app = Vue.createApp({
             lastName: 'Falana',
             email: 'falana@gmail.org',
             gender: 'male',
-            image: 'https://scontent.flos1-1.fna.fbcdn.net/v/t1.6435-1/c0.0.160.160a/p160x160/79771311_2676271322490696_9206726826674618368_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=7206a8&_nc_eui2=AeEy5Tw1vn6zwGCT_d0vcEzNcH8L9IFhmxpwfwv0gWGbGhQ1VlGNRzjvWUXaA-hxdn8ejXqmtYP1TJZh8FucdKh-&_nc_ohc=zRD94M-3obkAX8VtA0a&_nc_ht=scontent.flos1-1.fna&oh=4bf73316ebc867b726ccb5b9b942e3ba&oe=60FD64B8'
+            image: 'https://pbs.twimg.com/profile_images/1344404621805158401/UuWJcGpM.jpg'
         }
     },
     methods: {

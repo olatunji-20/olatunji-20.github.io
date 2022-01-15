@@ -6,6 +6,9 @@
 h2 {
     padding: 40px;
 }
+h3 {
+    padding: 20px 40px;
+}
 
 #app {
     background-color: #e6e6e644;

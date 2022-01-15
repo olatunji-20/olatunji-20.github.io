@@ -415,8 +415,7 @@ h1 {
         margin: 25px 20px;
     }
     #dropd {
-        background-color: #ffffff;
-        color: #282835;
+        background-color: floralwhite;
         width: 60vw;
         height: 70vh;
         z-index: 3;
@@ -427,7 +426,16 @@ h1 {
         position: fixed;
         right: 0px;
         text-align: left;
+        box-shadow: 1px 1px 4px #282835;
     }
+    #dropd ul a {
+        color: tomato;
+        text-decoration: none;
+    }
+    #dropd ul a:hover {
+        color: red;
+        text-decoration: underline;
+    } 
     #dropd ul li {
         list-style-type: none;
         padding: 10px 3px;
@@ -503,15 +511,12 @@ h1 {
         width: 50vw;
     }
     #dropd {
-        background-color: #ffffff;
-        color: #282835;
         width: 60vw;
         height: 70vh;
         z-index: 3;
         overflow: auto;
         padding-top: 70px;
         display: inline;
-        border: 1px solid #242429;
         position: fixed;
         right: 0px;
         text-align: left;
