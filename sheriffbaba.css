@@ -398,6 +398,11 @@ h1 {
     width: 100%;
 }
 
+/* .repo:hover {
+    background: grey;
+    transition: .3s;
+} */
+
     @media screen and (max-width: 760px) {
         * {
             box-sizing: border-box;
