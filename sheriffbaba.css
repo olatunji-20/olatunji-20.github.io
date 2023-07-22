@@ -200,7 +200,7 @@ h1 {
 
 #projects .frame1 p {
     text-align: left;
-    padding: 20px 10px 10px;
+    padding: 15px 10px 0px;
     font-size: 12px;
 }
 
@@ -215,9 +215,9 @@ h1 {
     box-shadow: 1px 1px 1px 1px #666666;
 }
 
-.frame1 a {
+/* .frame1 p {
     word-break: break-all;
-}
+} */
 
 .frame {
     background-color: white;
@@ -398,10 +398,16 @@ h1 {
     width: 100%;
 }
 
-/* .repo:hover {
-    background: grey;
-    transition: .3s;
-} */
+.repo {
+    text-decoration: none;
+    color: black;
+    position: relative;
+}
+
+.repo:hover {
+    top: 3px;
+    transition: .5s;
+}
 
     @media screen and (max-width: 760px) {
         * {
