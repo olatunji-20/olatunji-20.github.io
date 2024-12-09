@@ -283,6 +283,18 @@ h1 {
     display: none;
 }
 
+.smedia7 {
+    width: 70px;
+    height: 70px;
+    margin: 15px;
+    border-radius: 50%;
+    display: block;
+    position: relative;
+    font-size: 45px;
+    padding: 10px;
+    padding-top: 12px;
+}
+
 .smedia1:hover {
     background-color: black;
     color: #ffffff;
@@ -311,6 +323,10 @@ h1 {
 .smedia6:hover {
     background-color: #ffffff;
     color: #ff3300;
+}
+
+.smedia7:hover {
+    background-color: #00b300;
 }
 
 .resume {
@@ -394,8 +410,8 @@ h1 {
 }
 
 .skimage {
-    height: 99.9%;
-    width: 100%;
+    height: 80%;
+    width: 80%;
 }
 
 .repo {

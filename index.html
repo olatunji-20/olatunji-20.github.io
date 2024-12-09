@@ -5,6 +5,7 @@
 <head>
     <meta charset="utf-8">
     <title>SHERIFF'S PORTFOLIO PAGE</title>
+    <script src="https://kit.fontawesome.com/22035a41a6.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="sheriffbaba.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400&display=swap" rel="stylesheet">
@@ -272,13 +273,19 @@
 
         <a target="_blank" href="https://www.twitter.com/Olatunji_20">
             <div class="smedia4">
-                <i class="fi fi-twitter"></i>
+                <img src="images/x-twitter.svg" alt="x-twitter" class="skimage">
             </div>
         </a>
 
         <a target="_blank" href="https://wa.me/+2348065840255">
             <div class="smedia5">
                 <i class="fi fi-whatsapp"></i>
+            </div>
+        </a>
+
+        <a target="_blank" href="https://www.upwork.com/freelancers/~012ab2846e57b8d152">
+            <div class="smedia7">
+                <img src="images/upwork.svg" alt="upwork" class="skimage">
             </div>
         </a>
 
@@ -386,7 +393,7 @@
 
 
 
-
+    <script src="https://kit.fontawesome.com/22035a41a6.js" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js">
     </script>
     <script src="jquery-3.5.1.min.js">
@@ -507,6 +514,17 @@
                 }, 200);
 
                 $(".smedia6").animate({
+                    top: '0px'
+                }, 200);
+
+            });
+
+            $(".smedia7").mouseenter(function () {
+                $(".smedia7").animate({
+                    top: '10px'
+                }, 200);
+
+                $(".smedia7").animate({
                     top: '0px'
                 }, 200);
 
